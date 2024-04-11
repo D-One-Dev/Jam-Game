@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Minigame
   - Bed
+  - Left Border
+  - Right Border
   layers:
   - Default
   - TransparentFX
