@@ -24,13 +24,16 @@ public class CameraLook : MonoBehaviour
     }
     void Update()
     {
-        Vector2 mouseDelta = _controls.Gameplay.MouseDelta.ReadValue<Vector2>();
-        float mouseX = mouseDelta.x * Time.deltaTime * mouseSens;
-        float mouseY = mouseDelta.y * Time.deltaTime * mouseSens;
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        if (PlayerInteraction.instance.playerStatus == 0)
+        {
+            Vector2 mouseDelta = _controls.Gameplay.MouseDelta.ReadValue<Vector2>();
+            float mouseX = mouseDelta.x * Time.deltaTime * mouseSens;
+            float mouseY = mouseDelta.y * Time.deltaTime * mouseSens;
+            xRotation -= mouseY;
+            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
-        playerBody.Rotate(Vector3.up * mouseX);
+            transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
+            playerBody.Rotate(Vector3.up * mouseX);
+        }
     }
 }
