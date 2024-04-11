@@ -176,9 +176,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 5349931}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &5349931
 MonoBehaviour:
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -271,9 +271,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 17155410}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &17155410
 MonoBehaviour:
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -366,9 +366,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 79076191}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &79076191
 MonoBehaviour:
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -461,9 +461,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 92017240}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &92017240
 MonoBehaviour:
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -693,9 +693,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 97304926}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &97304926
 MonoBehaviour:
@@ -717,7 +717,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -788,9 +788,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 97862482}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &97862482
 MonoBehaviour:
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -994,9 +994,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 126522874}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &126522874
 MonoBehaviour:
@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1089,9 +1089,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 138834078}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &138834078
 MonoBehaviour:
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1222,9 +1222,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 159066300}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &159066300
 MonoBehaviour:
@@ -1246,7 +1246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1275,7 +1275,7 @@ GameObject:
   - component: {fileID: 176451427}
   - component: {fileID: 176451428}
   m_Layer: 6
-  m_Name: GameObject
+  m_Name: Rover
   m_TagString: Minigame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1372,9 +1372,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 218083321}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &218083321
 MonoBehaviour:
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1569,9 +1569,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 220667205}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &220667205
 MonoBehaviour:
@@ -1593,7 +1593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1664,9 +1664,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 269696099}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &269696099
 MonoBehaviour:
@@ -1688,7 +1688,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1759,9 +1759,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 272837099}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &272837099
 MonoBehaviour:
@@ -1783,7 +1783,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1854,9 +1854,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 277335321}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &277335321
 MonoBehaviour:
@@ -1878,7 +1878,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1949,9 +1949,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 298817523}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &298817523
 MonoBehaviour:
@@ -1973,7 +1973,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2044,9 +2044,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 316854297}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &316854297
 MonoBehaviour:
@@ -2068,7 +2068,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2273,9 +2273,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 368743587}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &368743587
 MonoBehaviour:
@@ -2297,7 +2297,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2368,9 +2368,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 371560235}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &371560235
 MonoBehaviour:
@@ -2392,7 +2392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2598,9 +2598,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 376498077}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &376498077
 MonoBehaviour:
@@ -2622,7 +2622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2828,9 +2828,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 389869185}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &389869185
 MonoBehaviour:
@@ -2852,7 +2852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2923,9 +2923,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 393770923}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &393770923
 MonoBehaviour:
@@ -2947,7 +2947,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3018,9 +3018,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 412100783}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &412100783
 MonoBehaviour:
@@ -3042,7 +3042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3113,9 +3113,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 413787232}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &413787232
 MonoBehaviour:
@@ -3137,7 +3137,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3208,9 +3208,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 421347273}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &421347273
 MonoBehaviour:
@@ -3232,7 +3232,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3300,12 +3300,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: Ground
+  tileType: Rover
   tileImage: {fileID: 426435004}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &426435004
 MonoBehaviour:
@@ -3327,7 +3327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3398,9 +3398,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 447719595}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &447719595
 MonoBehaviour:
@@ -3422,7 +3422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3493,9 +3493,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 450318597}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &450318597
 MonoBehaviour:
@@ -3517,7 +3517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3588,9 +3588,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 467201220}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &467201220
 MonoBehaviour:
@@ -3612,7 +3612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3683,9 +3683,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 469177617}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &469177617
 MonoBehaviour:
@@ -3707,7 +3707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4018,9 +4018,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 497420112}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &497420112
 MonoBehaviour:
@@ -4042,7 +4042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4210,9 +4210,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 508143898}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &508143898
 MonoBehaviour:
@@ -4234,7 +4234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4305,9 +4305,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 518104837}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &518104837
 MonoBehaviour:
@@ -4329,7 +4329,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4400,9 +4400,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 523506277}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &523506277
 MonoBehaviour:
@@ -4424,7 +4424,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4735,9 +4735,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 625688211}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &625688211
 MonoBehaviour:
@@ -4759,7 +4759,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4776,6 +4776,86 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625688208}
+  m_CullTransparentMesh: 1
+--- !u!1 &653269088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653269089}
+  - component: {fileID: 653269091}
+  - component: {fileID: 653269090}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &653269089
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653269088}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00041723257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 707669187}
+  - {fileID: 714257768}
+  - {fileID: 851753534}
+  - {fileID: 1297964878}
+  - {fileID: 1232723618}
+  m_Father: {fileID: 684029441}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &653269090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653269088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b167551e25a6c2f45979bfca24e2b968, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &653269091
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653269088}
   m_CullTransparentMesh: 1
 --- !u!1 &653888203
 GameObject:
@@ -4830,9 +4910,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 653888206}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &653888206
 MonoBehaviour:
@@ -4854,7 +4934,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4904,8 +4984,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 898444192}
+  - {fileID: 653269089}
   - {fileID: 1005743921}
-  - {fileID: 1232723618}
   m_Father: {fileID: 176451427}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5029,9 +5109,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 686072026}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &686072026
 MonoBehaviour:
@@ -5053,7 +5133,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5124,9 +5204,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 691289104}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &691289104
 MonoBehaviour:
@@ -5148,7 +5228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5219,9 +5299,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 701992163}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &701992163
 MonoBehaviour:
@@ -5243,7 +5323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5335,6 +5415,275 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703308194}
+  m_CullTransparentMesh: 1
+--- !u!1 &707669186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 707669187}
+  - component: {fileID: 707669189}
+  - component: {fileID: 707669188}
+  m_Layer: 5
+  m_Name: Controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &707669187
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707669186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 653269089}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 65}
+  m_SizeDelta: {x: -100, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &707669188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707669186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "w:\u0432\u0432\u0435\u0440\u0445; s:\u0432\u043D\u0438\u0437; a:\u0432\u043B\u0435\u0432\u043E;
+    d:\u0432\u043F\u0440\u0430\u0432\u043E"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2e0f7c3750ae8c0459dbbeb55e68e5f9, type: 2}
+  m_sharedMaterial: {fileID: 6666166415324289792, guid: 2e0f7c3750ae8c0459dbbeb55e68e5f9, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 48
+  m_fontSizeBase: 48
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &707669189
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707669186}
+  m_CullTransparentMesh: 1
+--- !u!1 &714257767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 714257768}
+  - component: {fileID: 714257770}
+  - component: {fileID: 714257769}
+  m_Layer: 5
+  m_Name: Energy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &714257768
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714257767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 653269089}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 155, y: -80}
+  m_SizeDelta: {x: 250, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &714257769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714257767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u042D\u043D\u0435\u0440\u0433\u0438\u044F"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2e0f7c3750ae8c0459dbbeb55e68e5f9, type: 2}
+  m_sharedMaterial: {fileID: 6666166415324289792, guid: 2e0f7c3750ae8c0459dbbeb55e68e5f9, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 48
+  m_fontSizeBase: 48
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &714257770
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714257767}
   m_CullTransparentMesh: 1
 --- !u!1 &715191760
 GameObject:
@@ -5523,9 +5872,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 730682252}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &730682252
 MonoBehaviour:
@@ -5547,7 +5896,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5962,9 +6311,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 771076176}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &771076176
 MonoBehaviour:
@@ -5986,7 +6335,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6057,9 +6406,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 780683569}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &780683569
 MonoBehaviour:
@@ -6081,7 +6430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6511,9 +6860,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 836696687}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &836696687
 MonoBehaviour:
@@ -6535,7 +6884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6552,6 +6901,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836696684}
+  m_CullTransparentMesh: 1
+--- !u!1 &851753533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 851753534}
+  - component: {fileID: 851753536}
+  - component: {fileID: 851753535}
+  m_Layer: 5
+  m_Name: IconFill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &851753534
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851753533}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 653269089}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -650, y: -80}
+  m_SizeDelta: {x: 1486.6, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &851753535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851753533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 183466b842b9fd74dbd71f2709c670bf, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &851753536
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851753533}
   m_CullTransparentMesh: 1
 --- !u!1 &853325604
 GameObject:
@@ -6606,9 +7030,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 853325607}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &853325607
 MonoBehaviour:
@@ -6630,7 +7054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6701,9 +7125,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 889325007}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &889325007
 MonoBehaviour:
@@ -6725,7 +7149,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6871,9 +7295,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 923190056}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &923190056
 MonoBehaviour:
@@ -6895,7 +7319,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6966,9 +7390,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 942092302}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &942092302
 MonoBehaviour:
@@ -6990,7 +7414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7194,9 +7618,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 981497282}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &981497282
 MonoBehaviour:
@@ -7218,7 +7642,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7364,7 +7788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1005743921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7534,9 +7958,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1021557568}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1021557568
 MonoBehaviour:
@@ -7558,7 +7982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7890,9 +8314,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1108431388}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1108431388
 MonoBehaviour:
@@ -7914,7 +8338,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7985,9 +8409,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1136104719}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1136104719
 MonoBehaviour:
@@ -8009,7 +8433,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8080,9 +8504,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1136885143}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1136885143
 MonoBehaviour:
@@ -8104,7 +8528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8175,9 +8599,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1159315775}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1159315775
 MonoBehaviour:
@@ -8199,7 +8623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8270,9 +8694,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1179339195}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1179339195
 MonoBehaviour:
@@ -8294,7 +8718,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8402,9 +8826,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1182629263}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1182629263
 MonoBehaviour:
@@ -8426,7 +8850,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8497,9 +8921,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1199810016}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1199810016
 MonoBehaviour:
@@ -8521,7 +8945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8564,7 +8988,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232723617}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8669,7 +9093,7 @@ RectTransform:
   - {fileID: 1419721664}
   - {fileID: 1136885141}
   - {fileID: 1352090581}
-  m_Father: {fileID: 684029441}
+  m_Father: {fileID: 653269089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8712,7 +9136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410254a567329a3438d4473a9447b2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roverStartPoint: {x: 4, y: 1}
+  roverStartPoint: {x: 3, y: 2}
   itemPoint: {x: 5, y: 7}
   tiles:
   - {fileID: 1239922183}
@@ -8817,7 +9241,7 @@ MonoBehaviour:
   - {fileID: 1352090582}
   gridSize: {x: 10, y: 10}
   startEnergy: 100
-  energyText: {fileID: 1005743922}
+  energySprite: {fileID: 851753535}
 --- !u!1 &1233470046
 GameObject:
   m_ObjectHideFlags: 0
@@ -8871,9 +9295,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1233470049}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1233470049
 MonoBehaviour:
@@ -8895,7 +9319,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8971,7 +9395,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9004,9 +9428,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1239922181}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!1 &1243208641
 GameObject:
@@ -9061,9 +9485,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1243208644}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1243208644
 MonoBehaviour:
@@ -9085,7 +9509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9156,9 +9580,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1254101180}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1254101180
 MonoBehaviour:
@@ -9180,7 +9604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9251,9 +9675,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1258461659}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1258461659
 MonoBehaviour:
@@ -9275,7 +9699,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9346,9 +9770,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1286314957}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1286314957
 MonoBehaviour:
@@ -9370,7 +9794,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9387,6 +9811,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286314954}
+  m_CullTransparentMesh: 1
+--- !u!1 &1297964877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1297964878}
+  - component: {fileID: 1297964880}
+  - component: {fileID: 1297964879}
+  m_Layer: 5
+  m_Name: IconOutline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1297964878
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297964877}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 653269089}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -650, y: -80}
+  m_SizeDelta: {x: 1500, y: 128}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1297964879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297964877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2f8f83416b384fc4aa1b4642758fce0f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1297964880
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297964877}
   m_CullTransparentMesh: 1
 --- !u!1 &1343017696
 GameObject:
@@ -9441,9 +9940,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1343017699}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1343017699
 MonoBehaviour:
@@ -9465,7 +9964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9536,9 +10035,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1345422301}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1345422301
 MonoBehaviour:
@@ -9560,7 +10059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9631,9 +10130,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1352090583}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1352090583
 MonoBehaviour:
@@ -9655,7 +10154,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9723,12 +10222,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: Rover
+  tileType: Road
   tileImage: {fileID: 1366909516}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1366909516
 MonoBehaviour:
@@ -9750,7 +10249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9821,9 +10320,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1419721666}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1419721666
 MonoBehaviour:
@@ -9845,7 +10344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9916,9 +10415,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1431369290}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1431369290
 MonoBehaviour:
@@ -9940,7 +10439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10047,9 +10546,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1470726364}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1470726364
 MonoBehaviour:
@@ -10071,7 +10570,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10271,9 +10770,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1488918053}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1488918053
 MonoBehaviour:
@@ -10295,7 +10794,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10366,9 +10865,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1512462847}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1512462847
 MonoBehaviour:
@@ -10390,7 +10889,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10458,12 +10957,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: Rock
+  tileType: Road
   tileImage: {fileID: 1533492924}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1533492924
 MonoBehaviour:
@@ -10485,7 +10984,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10846,9 +11345,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1552163895}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1552163895
 MonoBehaviour:
@@ -10870,7 +11369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10941,9 +11440,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1552693121}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1552693121
 MonoBehaviour:
@@ -10965,7 +11464,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11036,9 +11535,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1570429772}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1570429772
 MonoBehaviour:
@@ -11060,7 +11559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11131,9 +11630,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1580110233}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1580110233
 MonoBehaviour:
@@ -11155,7 +11654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11434,9 +11933,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1598518080}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1598518080
 MonoBehaviour:
@@ -11458,7 +11957,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11529,9 +12028,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1618766467}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1618766467
 MonoBehaviour:
@@ -11553,7 +12052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11624,9 +12123,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1635415254}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1635415254
 MonoBehaviour:
@@ -11648,7 +12147,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11719,9 +12218,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1653118559}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1653118559
 MonoBehaviour:
@@ -11743,7 +12242,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11814,9 +12313,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1654986491}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1654986491
 MonoBehaviour:
@@ -11838,7 +12337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12155,9 +12654,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1705114737}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1705114737
 MonoBehaviour:
@@ -12179,7 +12678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12250,9 +12749,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1720995073}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1720995073
 MonoBehaviour:
@@ -12274,7 +12773,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12517,9 +13016,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1760710209}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1760710209
 MonoBehaviour:
@@ -12541,7 +13040,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12793,9 +13292,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1769631490}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1769631490
 MonoBehaviour:
@@ -12817,7 +13316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12888,9 +13387,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1782041257}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1782041257
 MonoBehaviour:
@@ -12912,7 +13411,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12980,12 +13479,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: Ground
+  tileType: Rock
   tileImage: {fileID: 1782518720}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1782518720
 MonoBehaviour:
@@ -13007,7 +13506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13346,9 +13845,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1828858038}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1828858038
 MonoBehaviour:
@@ -13370,7 +13869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13441,9 +13940,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1841085953}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1841085953
 MonoBehaviour:
@@ -13465,7 +13964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13536,9 +14035,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1842024405}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1842024405
 MonoBehaviour:
@@ -13560,7 +14059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13764,9 +14263,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1930214384}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1930214384
 MonoBehaviour:
@@ -13788,7 +14287,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13965,9 +14464,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 1948612358}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &1948612358
 MonoBehaviour:
@@ -13989,7 +14488,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14166,9 +14665,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2003409431}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2003409431
 MonoBehaviour:
@@ -14190,7 +14689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14261,9 +14760,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2015043521}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2015043521
 MonoBehaviour:
@@ -14285,7 +14784,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14356,9 +14855,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2033941627}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2033941627
 MonoBehaviour:
@@ -14380,7 +14879,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14451,9 +14950,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2049022849}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2049022849
 MonoBehaviour:
@@ -14475,7 +14974,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14546,9 +15045,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2058362216}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2058362216
 MonoBehaviour:
@@ -14570,7 +15069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14641,9 +15140,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2061520884}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2061520884
 MonoBehaviour:
@@ -14665,7 +15164,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15055,9 +15554,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2103314595}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2103314595
 MonoBehaviour:
@@ -15079,7 +15578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15150,9 +15649,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2110831528}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2110831528
 MonoBehaviour:
@@ -15174,7 +15673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15245,9 +15744,9 @@ MonoBehaviour:
   tileType: Ground
   tileImage: {fileID: 2134242112}
   tileSprites:
-  - {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
-  - {fileID: 21300000, guid: c8f91a806c621cf49b642c2ad169b441, type: 3}
-  - {fileID: 21300000, guid: 72307f7c2ba43714d9bd61b3dac37092, type: 3}
+  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
+  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
+  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
   - {fileID: 21300000, guid: 63a9381d8b66109489318ad90bddd6e4, type: 3}
 --- !u!114 &2134242112
 MonoBehaviour:
@@ -15269,7 +15768,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ba1f12f920158f4ab91370bfab2ec3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
