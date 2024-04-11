@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DatabaseGame : MonoBehaviour
 {
@@ -6,6 +7,9 @@ public class DatabaseGame : MonoBehaviour
     [SerializeField] private RectTransform leftBorder, rightBorder;
     [SerializeField] private RectTransform[] greenZones;
     [SerializeField] private float cursorMoveSpeed;
+    [SerializeField] private Image progressBar;
+    [SerializeField] private int zoneCount;
+    private int progress;
     private Controls _controls;
     private void Awake()
     {
@@ -35,6 +39,8 @@ public class DatabaseGame : MonoBehaviour
             if (CheckCollision() != null)
             {
                 zone.sizeDelta = new Vector2(zone.sizeDelta.x / 1.5f, zone.sizeDelta.y);
+                progress++;
+                progressBar.fillAmount = (float)progress / (zoneCount * 3);
             }
             else
             {

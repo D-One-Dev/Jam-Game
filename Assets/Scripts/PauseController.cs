@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class PauseController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseScreen;
     [SerializeField] private GameObject settingsScreen;
     [SerializeField] private SceneLoader _sceneLoader;
+    [SerializeField] private PostProcessVolume _postProcessVolume;
     private Controls _controls;
     private bool isPaused;
     private void Awake()
@@ -26,6 +28,7 @@ public class PauseController : MonoBehaviour
         if (!isPaused)
         {
             Time.timeScale = 0f;
+            _postProcessVolume.isGlobal = false;
             pauseScreen.SetActive(true);
             settingsScreen.SetActive(false);
             Cursor.lockState = CursorLockMode.None;
@@ -33,6 +36,7 @@ public class PauseController : MonoBehaviour
         }
         else
         {
+            _postProcessVolume.isGlobal = true;
             pauseScreen.SetActive(false);
             Time.timeScale = 1f;
             Cursor.lockState = CursorLockMode.Locked;
