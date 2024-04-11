@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -63,6 +61,9 @@ public class PlayerInteraction : MonoBehaviour
                         playerStatus = 1;
                     }
                     else playerStatus = 0;
+                    break;
+                case "Bed":
+                    DayCounter.Instance.GoToNextDay();
                     break;
                 default:
                     break;
