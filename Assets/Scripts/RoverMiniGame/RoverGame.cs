@@ -1,5 +1,5 @@
-using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RoverGame : MonoBehaviour
 {
@@ -8,7 +8,7 @@ public class RoverGame : MonoBehaviour
     [SerializeField] private MapTile[] tiles;
     [SerializeField] private Vector2Int gridSize;
     [SerializeField] private int startEnergy;
-    [SerializeField] private TMP_Text energyText;
+    [SerializeField] private Image energySprite;
     private int currentEnergy;
     private MapTile[,] tileGrid;
     private Controls _controls;
@@ -121,6 +121,6 @@ public class RoverGame : MonoBehaviour
     private void LooseEnergy()
     {
         if (currentEnergy > 1) currentEnergy--;
-        energyText.text = currentEnergy.ToString();
+        energySprite.fillAmount = (float)currentEnergy / startEnergy;
     }
 }
