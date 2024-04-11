@@ -10,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         _controls = new Controls();
-        //_controls.Gameplay.Interact.performed += ctx => Interact();
     }
     private void OnEnable()
     {
@@ -22,9 +21,12 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        Vector2 input = _controls.Gameplay.Movement.ReadValue<Vector2>();
-        Vector3 movement = movementSpeed * Time.deltaTime * (input.x * transform.right + input.y * transform.forward);
-        _characterController.Move(movement);
+        if(PlayerInteraction.instance.playerStatus == 0)
+        {
+            Vector2 input = _controls.Gameplay.Movement.ReadValue<Vector2>();
+            Vector3 movement = movementSpeed * Time.deltaTime * (input.x * transform.right + input.y * transform.forward);
+            _characterController.Move(movement);
+        }
         if (_characterController.isGrounded) grav = 0;
         else grav += gravity;
         _characterController.Move(Vector3.up * grav * Time.deltaTime);
