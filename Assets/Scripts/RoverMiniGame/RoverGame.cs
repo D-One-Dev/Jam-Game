@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RoverGame : MonoBehaviour
+public class RoverGame : MonoBehaviour, IInteractable
 {
     [SerializeField] private Vector2Int roverStartPoint;
     [SerializeField] private Vector2Int itemPoint;
@@ -9,10 +9,14 @@ public class RoverGame : MonoBehaviour
     [SerializeField] private Vector2Int gridSize;
     [SerializeField] private int startEnergy;
     [SerializeField] private Image energySprite;
+    [SerializeField] private GameObject gameUI;
+    [SerializeField] private Animator _animator;
     private int currentEnergy;
     private MapTile[,] tileGrid;
     private Controls _controls;
     private Vector2Int roverPosition;
+    private bool active;
+    private bool gameWon;
     private void Awake()
     {
         _controls = new Controls();
@@ -52,60 +56,88 @@ public class RoverGame : MonoBehaviour
 
     private void MoveUp()
     {
-        if(PlayerInteraction.instance.playerStatus == 1)
+        if(PlayerInteraction.instance.playerStatus == 1 && active && !gameWon)
         {
             if(roverPosition.y > 0 && tileGrid[roverPosition.x, roverPosition.y - 1].tileType != "Rock")
             {
-                tileGrid[roverPosition.x, roverPosition.y].tileType = "Ground";
-                roverPosition.y--;
-                tileGrid[roverPosition.x, roverPosition.y].tileType = "Rover";
-                UpdateGrid();
-                LooseEnergy();
+                if (CheckWin(new Vector2Int(0, -1)))
+                {
+                    Debug.Log("Win");
+                }
+                else
+                {
+                    tileGrid[roverPosition.x, roverPosition.y].tileType = "Ground";
+                    roverPosition.y--;
+                    tileGrid[roverPosition.x, roverPosition.y].tileType = "Rover";
+                    UpdateGrid();
+                    LooseEnergy();
+                }
             }
         }
     }
 
     private void MoveDown()
     {
-        if (PlayerInteraction.instance.playerStatus == 1)
+        if (PlayerInteraction.instance.playerStatus == 1 && active && !gameWon)
         {
             if (roverPosition.y < gridSize.y - 1 && tileGrid[roverPosition.x, roverPosition.y + 1].tileType != "Rock")
             {
-                tileGrid[roverPosition.x, roverPosition.y].tileType = "Ground";
-                roverPosition.y++;
-                tileGrid[roverPosition.x, roverPosition.y].tileType = "Rover";
-                UpdateGrid();
-                LooseEnergy();
+                if (CheckWin(new Vector2Int(0, 1)))
+                {
+                    Debug.Log("Win");
+                }
+                else
+                {
+                    tileGrid[roverPosition.x, roverPosition.y].tileType = "Ground";
+                    roverPosition.y++;
+                    tileGrid[roverPosition.x, roverPosition.y].tileType = "Rover";
+                    UpdateGrid();
+                    LooseEnergy();
+                }
             }
         }
     }
 
     private void MoveLeft()
     {
-        if (PlayerInteraction.instance.playerStatus == 1)
+        if (PlayerInteraction.instance.playerStatus == 1 && active && !gameWon)
         {
-            if (roverPosition.x > 0 && tileGrid[roverPosition.x - 1, roverPosition.y].tileType != "Rock")
+            if (CheckWin(new Vector2Int(-1, 0)))
             {
-                tileGrid[roverPosition.x, roverPosition.y].tileType = "Ground";
-                roverPosition.x--;
-                tileGrid[roverPosition.x, roverPosition.y].tileType = "Rover";
-                UpdateGrid();
-                LooseEnergy();
+                Debug.Log("Win");
+            }
+            else
+            {
+                if (roverPosition.x > 0 && tileGrid[roverPosition.x - 1, roverPosition.y].tileType != "Rock")
+                {
+                    tileGrid[roverPosition.x, roverPosition.y].tileType = "Ground";
+                    roverPosition.x--;
+                    tileGrid[roverPosition.x, roverPosition.y].tileType = "Rover";
+                    UpdateGrid();
+                    LooseEnergy();
+                }
             }
         }
     }
 
     private void MoveRight()
     {
-        if (PlayerInteraction.instance.playerStatus == 1)
+        if (PlayerInteraction.instance.playerStatus == 1 && active && !gameWon)
         {
-            if (roverPosition.x < gridSize.x - 1 && tileGrid[roverPosition.x + 1, roverPosition.y].tileType != "Rock")
+            if (CheckWin(new Vector2Int(1, 0)))
             {
-                tileGrid[roverPosition.x, roverPosition.y].tileType = "Ground";
-                roverPosition.x++;
-                tileGrid[roverPosition.x, roverPosition.y].tileType = "Rover";
-                UpdateGrid();
-                LooseEnergy();
+                Debug.Log("Win");
+            }
+            else
+            {
+                if (roverPosition.x < gridSize.x - 1 && tileGrid[roverPosition.x + 1, roverPosition.y].tileType != "Rock")
+                {
+                    tileGrid[roverPosition.x, roverPosition.y].tileType = "Ground";
+                    roverPosition.x++;
+                    tileGrid[roverPosition.x, roverPosition.y].tileType = "Rover";
+                    UpdateGrid();
+                    LooseEnergy();
+                }
             }
         }
     }
@@ -122,5 +154,29 @@ public class RoverGame : MonoBehaviour
     {
         if (currentEnergy > 1) currentEnergy--;
         energySprite.fillAmount = (float)currentEnergy / startEnergy;
+    }
+
+    public void TurnOn()
+    {
+        active = true;
+        gameUI.SetActive(true);
+    }
+
+    public void TurnOff()
+    {
+        active = false;
+        gameUI.SetActive(false);
+    }
+
+    public bool CheckWin(Vector2Int dir)
+    {
+        //Debug.Log(roverPosition + "||" + dir + "||" + itemPoint);
+        if (roverPosition + dir == itemPoint)
+        {
+            _animator.SetTrigger("Win");
+            gameWon = true;
+            return true;
+        }
+        return false;
     }
 }

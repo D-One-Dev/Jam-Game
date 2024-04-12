@@ -9,12 +9,15 @@ public class SettingsController : MonoBehaviour
     [SerializeField] private TMP_Text volumeText;
     [SerializeField] private Toggle fullscreenToggle;
     [SerializeField] private Slider volumeSlider;
+    [SerializeField] private TMP_Text qualityText;
     private int resolution;
+    private int quality;
     private bool fullscreen;
     private int volume;
     void Start()
     {
         resolution = PlayerPrefs.GetInt("Resolution", 1);
+        quality = PlayerPrefs.GetInt("Quality", 3);
         switch (PlayerPrefs.GetInt("Fullscreen", 1))
         {
             case 0:
@@ -29,6 +32,7 @@ public class SettingsController : MonoBehaviour
         QualitySettings.vSyncCount = 1;
         ApplyResolution();
         ApplySettings();
+        ApplyQuality();
     }
 
     private void ApplyResolution()
@@ -99,5 +103,50 @@ public class SettingsController : MonoBehaviour
     {
         volume = (int)volumeSlider.value;
         ApplySettings();
+    }
+
+    public void ChangeQuality(bool direction)
+    {
+        if (direction)
+        {
+            if (quality <= 2) quality++;
+            else quality = 0;
+        }
+        else
+        {
+            if (quality > 0) quality--;
+            else quality = 3;
+        }
+        PlayerPrefs.SetInt("Quality", quality);
+        ApplyQuality();
+    }
+
+    private void ApplyQuality()
+    {
+        switch (quality)
+        {
+            case 0:
+                qualityText.text = "Качество графики: минимальное";
+                QualitySettings.SetQualityLevel(0);
+                break;
+            case 1:
+                qualityText.text = "Качество графики: среднее";
+                QualitySettings.SetQualityLevel(2);
+                break;
+            case 2:
+                qualityText.text = "Качество графики: высокое";
+                QualitySettings.SetQualityLevel(4);
+                break;
+            case 3:
+                qualityText.text = "Качество графики: ультра";
+                QualitySettings.SetQualityLevel(5);
+                break;
+            default:
+                qualityText.text = "Качество графики: минимальное";
+                QualitySettings.SetQualityLevel(0);
+                break;
+        }
+
+        QualitySettings.vSyncCount = 1;
     }
 }

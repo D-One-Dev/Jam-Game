@@ -56,11 +56,16 @@ public class PlayerInteraction : MonoBehaviour
             switch (currentObject.tag)
             {
                 case "Minigame":
-                    if(playerStatus == 0)
+                    if (playerStatus == 0)
                     {
                         playerStatus = 1;
+                        currentObject.GetComponentInChildren<IInteractable>().TurnOn();
                     }
-                    else playerStatus = 0;
+                    else
+                    {
+                        playerStatus = 0;
+                        currentObject.GetComponentInChildren<IInteractable>().TurnOff();
+                    }
                     break;
                 case "Bed":
                     DayCounter.Instance.GoToNextDay();

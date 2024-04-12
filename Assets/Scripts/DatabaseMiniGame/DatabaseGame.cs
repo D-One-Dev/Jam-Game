@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DatabaseGame : MonoBehaviour
+public class DatabaseGame : MonoBehaviour, IInteractable
 {
     [SerializeField] private RectTransform cursor;
     [SerializeField] private RectTransform leftBorder, rightBorder;
@@ -9,8 +9,10 @@ public class DatabaseGame : MonoBehaviour
     [SerializeField] private float cursorMoveSpeed;
     [SerializeField] private Image progressBar;
     [SerializeField] private int zoneCount;
+    [SerializeField] private GameObject gameUI;
     private int progress;
     private Controls _controls;
+    private bool active;
     private void Awake()
     {
         _controls = new Controls();
@@ -33,7 +35,7 @@ public class DatabaseGame : MonoBehaviour
 
     private void Catch()
     {
-        if(PlayerInteraction.instance.playerStatus == 1)
+        if(PlayerInteraction.instance.playerStatus == 1 && active)
         {
             RectTransform zone = CheckCollision();
             if (CheckCollision() != null)
@@ -55,10 +57,22 @@ public class DatabaseGame : MonoBehaviour
         {
             if (cursor.localPosition.x >= zone.localPosition.x - zone.rect.width && cursor.localPosition.x <= zone.localPosition.x + zone.rect.width)
             { 
-                Debug.Log(cursor.localPosition.x + "||" + (zone.localPosition.x - zone.rect.width) + "||" + (zone.localPosition.x + zone.rect.width));
+                //Debug.Log(cursor.localPosition.x + "||" + (zone.localPosition.x - zone.rect.width) + "||" + (zone.localPosition.x + zone.rect.width));
                 return zone;
             }
         }
         return null;
+    }
+
+    public void TurnOn()
+    {
+        active = true;
+        gameUI.SetActive(true);
+    }
+
+    public void TurnOff()
+    {
+        active = false;
+        gameUI.SetActive(false);
     }
 }
