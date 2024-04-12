@@ -34,8 +34,8 @@ public class CameraLook : MonoBehaviour
         if (PlayerInteraction.instance.playerStatus == 0)
         {
             Vector2 mouseDelta = _controls.Gameplay.MouseDelta.ReadValue<Vector2>();
-            float mouseX = mouseDelta.x * Time.deltaTime * mouseSens;
-            float mouseY = mouseDelta.y * Time.deltaTime * mouseSens;
+            float mouseX = mouseDelta.x * mouseSens;//Time.deltaTime * mouseSens;
+            float mouseY = mouseDelta.y * mouseSens;//Time.deltaTime * mouseSens;
             xRotation -= mouseY;
             xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 

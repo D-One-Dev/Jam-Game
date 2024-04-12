@@ -132,7 +132,7 @@ namespace EWiresMiniGame
             GameObject wcollider = Instantiate(wirePathCollider, position, Quaternion.identity);
 
             wcollider.GetComponent<WireCollider>().eWiresGame = this;
-            wcollider.transform.parent = transform;
+            wcollider.transform.SetParent(transform, false);
             wcollider.transform.localScale = new Vector3(1, 1, 1);
             wcollider.transform.localPosition = position;
             

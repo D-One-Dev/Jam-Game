@@ -5568,8 +5568,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -210}
-  m_SizeDelta: {x: 0, y: 419.9}
+  m_AnchoredPosition: {x: 0, y: -330}
+  m_SizeDelta: {x: 0, y: 659.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544442336
 MonoBehaviour:
@@ -5613,7 +5613,12 @@ MonoBehaviour:
     Creative Commons / Attribution
     4.0 International (CC BY 4.0)
 
-    https://creativecommons.org/licenses/by/4.0/'
+    https://creativecommons.org/licenses/by/4.0/
+
+
+    diffusion
+    by airtone (c) copyright 2022 Licensed under a Creative Commons Attribution (3.0)
+    license. https://dig.ccmixter.org/files/airtone/64852'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e0f7c3750ae8c0459dbbeb55e68e5f9, type: 2}
   m_sharedMaterial: {fileID: 6666166415324289792, guid: 2e0f7c3750ae8c0459dbbeb55e68e5f9, type: 2}
