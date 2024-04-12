@@ -4,6 +4,7 @@ public class SoundController : MonoBehaviour
 {
     public static SoundController instance;
     [SerializeField] private AudioSource _AudioSource;
+    [SerializeField] private AudioSource _WalkAudioSource;
     private void Awake()
     {
         instance = this;
@@ -17,5 +18,15 @@ public class SoundController : MonoBehaviour
     {
         _AudioSource.pitch = Random.Range(.9f, 1.1f);
         _AudioSource.PlayOneShot(sound);
+    }
+
+    public void StartWalk()
+    {
+        if(_WalkAudioSource.isPlaying == false) _WalkAudioSource.Play();
+    }
+
+    public void StopWalk()
+    {
+        if (_WalkAudioSource.isPlaying) _WalkAudioSource.Stop();
     }
 }
