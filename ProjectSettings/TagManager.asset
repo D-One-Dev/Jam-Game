@@ -9,6 +9,7 @@ TagManager:
   - Left Border
   - Right Border
   - WireCollider
+  - Wire
   layers:
   - Default
   - TransparentFX
