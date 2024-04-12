@@ -7,18 +7,33 @@ namespace Silfieta
     {
         [SerializeField] private TextViewer textViewer;
         
-        public SilfietaDialogue[] dialogues;
+        public SilfietaDialogueBlock[] dialogueBlocks;
+
+        public static SilfietaDialogueSystem Instance;
 
         private int _currentDialogue;
         
-        private void Start() => StartCoroutine(StartDialogue());
+        private void Awake() => Instance = this;
 
-        private IEnumerator StartDialogue()
+        private void Start() => StartCoroutine(ShowDialogue());
+
+        public void StartNextDialogue()
         {
-            for (int i = 0; i < dialogues[_currentDialogue].messages.Length; i++)
+            _currentDialogue++;
+            StartCoroutine(ShowDialogue());
+        }
+
+        private IEnumerator ShowDialogue()
+        {
+            for (int i = 0; i < dialogueBlocks[_currentDialogue].messages.Length; i++)
             {
-                textViewer.SendMessage(dialogues[_currentDialogue].messages[i]);
-                yield return new WaitForSeconds(3);
+                textViewer.SendMessage(dialogueBlocks[_currentDialogue].messages[i]);
+
+                while (!textViewer.isTextShown) yield return new WaitForSeconds(1f);
+
+                yield return new WaitForSeconds(1f);
+                textViewer.ClearText();
+                yield return new WaitForSeconds(0.5f);
             }
         }
     }

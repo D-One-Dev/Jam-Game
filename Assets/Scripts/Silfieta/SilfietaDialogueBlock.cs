@@ -3,7 +3,7 @@
 namespace Silfieta
 {
     [CreateAssetMenu(fileName = "SilfietaDialogue")]
-    public class SilfietaDialogue : ScriptableObject
+    public class SilfietaDialogueBlock : ScriptableObject
     {
         [TextArea(3,10)] public string[] messages;
     }
