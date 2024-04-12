@@ -9,7 +9,6 @@ public class DatabaseGame : MonoBehaviour, IInteractable
     [SerializeField] private RectTransform[] greenZones;
     [SerializeField] private float cursorMoveSpeed;
     [SerializeField] private Image progressBar;
-    [SerializeField] private int zoneCount;
     [SerializeField] private GameObject gameUI;
     [SerializeField] private int lives;
     [SerializeField] private TMP_Text livesText;
@@ -49,8 +48,8 @@ public class DatabaseGame : MonoBehaviour, IInteractable
             {
                 zone.sizeDelta = new Vector2(zone.sizeDelta.x / 1.5f, zone.sizeDelta.y);
                 progress++;
-                progressBar.fillAmount = (float)progress / (zoneCount * 3);
-                if (progress == zoneCount * 3)
+                progressBar.fillAmount = (float)progress / (greenZones.Length * 3);
+                if (progress == greenZones.Length * 3)
                 {
                     Debug.Log("Win");
                     _animator.SetTrigger("Win");

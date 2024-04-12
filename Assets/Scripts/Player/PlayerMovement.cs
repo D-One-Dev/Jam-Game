@@ -47,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
                 Vector3 movement = movementSpeed * Time.deltaTime * (input.x * transform.right + input.y * transform.forward);
                 _characterController.Move(movement);
             }
+            else SoundController.instance.StopWalk();
             if (_characterController.isGrounded) grav = 0;
             else grav += gravity;
             _characterController.Move(Vector3.up * grav * Time.deltaTime);
