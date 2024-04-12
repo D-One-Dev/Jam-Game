@@ -86,7 +86,7 @@ namespace EWiresMiniGame
         {
             if (PlayerInteraction.instance.playerStatus != 1) return;
             
-            if (_currentWire.transform.localPosition.x - 170 < -440) return;
+            if (_currentWire.transform.localPosition.x - 170 < -520) return;
             
             var previousPosition = _currentWire.transform.localPosition;
 
@@ -99,7 +99,7 @@ namespace EWiresMiniGame
         {
             if (PlayerInteraction.instance.playerStatus != 1) return;
             
-            if (_currentWire.transform.localPosition.x + 170 > 440) return;
+            if (_currentWire.transform.localPosition.x + 170 > 520) return;
 
             var previousPosition = _currentWire.transform.localPosition;
 

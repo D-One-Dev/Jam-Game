@@ -324,7 +324,6 @@ GameObject:
   - component: {fileID: 31385392}
   - component: {fileID: 31385395}
   - component: {fileID: 31385394}
-  - component: {fileID: 31385393}
   m_Layer: 0
   m_Name: Image (16)
   m_TagString: Untagged
@@ -351,25 +350,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &31385393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31385391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 31385394}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &31385394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1503,7 +1483,6 @@ GameObject:
   - component: {fileID: 127492044}
   - component: {fileID: 127492047}
   - component: {fileID: 127492046}
-  - component: {fileID: 127492045}
   m_Layer: 0
   m_Name: Image (18)
   m_TagString: Untagged
@@ -1530,25 +1509,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &127492045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127492043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 127492046}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &127492046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1764,7 +1724,6 @@ GameObject:
   - component: {fileID: 142036679}
   - component: {fileID: 142036682}
   - component: {fileID: 142036681}
-  - component: {fileID: 142036680}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -1791,25 +1750,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &142036680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142036678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 142036681}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &142036681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2708,7 +2648,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229318472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2716,7 +2656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: 437}
+  m_AnchoredPosition: {x: -503, y: 437}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &229318474
@@ -5106,6 +5046,11 @@ RectTransform:
   - {fileID: 1569707236}
   - {fileID: 1766694482}
   - {fileID: 883112045}
+  - {fileID: 1074157494}
+  - {fileID: 1629519801}
+  - {fileID: 1034136665}
+  - {fileID: 1947929892}
+  - {fileID: 2115761035}
   m_Father: {fileID: 164659312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5136,7 +5081,7 @@ MonoBehaviour:
   m_CellSize: {x: 300, y: 300}
   m_Spacing: {x: -130, y: -130}
   m_Constraint: 1
-  m_ConstraintCount: 5
+  m_ConstraintCount: 6
 --- !u!1 &447719592
 GameObject:
   m_ObjectHideFlags: 0
@@ -6628,7 +6573,6 @@ GameObject:
   - component: {fileID: 556274197}
   - component: {fileID: 556274200}
   - component: {fileID: 556274199}
-  - component: {fileID: 556274198}
   m_Layer: 0
   m_Name: Image (20)
   m_TagString: Untagged
@@ -6655,25 +6599,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &556274198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 556274196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 556274199}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &556274199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7040,7 +6965,6 @@ GameObject:
   - component: {fileID: 586734117}
   - component: {fileID: 586734120}
   - component: {fileID: 586734119}
-  - component: {fileID: 586734118}
   m_Layer: 0
   m_Name: Image (13)
   m_TagString: Untagged
@@ -7067,25 +6991,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &586734118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586734116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 586734119}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &586734119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7135,7 +7040,6 @@ GameObject:
   - component: {fileID: 613597047}
   - component: {fileID: 613597050}
   - component: {fileID: 613597049}
-  - component: {fileID: 613597048}
   m_Layer: 0
   m_Name: Image (19)
   m_TagString: Untagged
@@ -7162,25 +7066,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &613597048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613597046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 613597049}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &613597049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8943,7 +8828,6 @@ GameObject:
   - component: {fileID: 743963700}
   - component: {fileID: 743963703}
   - component: {fileID: 743963702}
-  - component: {fileID: 743963701}
   m_Layer: 0
   m_Name: Image (2)
   m_TagString: Untagged
@@ -8970,25 +8854,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &743963701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743963699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 743963702}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &743963702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9439,7 +9304,6 @@ GameObject:
   - component: {fileID: 782693892}
   - component: {fileID: 782693895}
   - component: {fileID: 782693894}
-  - component: {fileID: 782693893}
   m_Layer: 0
   m_Name: Image (9)
   m_TagString: Untagged
@@ -9466,25 +9330,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &782693893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782693891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 782693894}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &782693894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9791,7 +9636,6 @@ GameObject:
   - component: {fileID: 805736814}
   - component: {fileID: 805736817}
   - component: {fileID: 805736816}
-  - component: {fileID: 805736815}
   m_Layer: 0
   m_Name: Image (15)
   m_TagString: Untagged
@@ -9818,25 +9662,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &805736815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805736813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 805736816}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &805736816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10422,7 +10247,6 @@ GameObject:
   - component: {fileID: 883112045}
   - component: {fileID: 883112048}
   - component: {fileID: 883112047}
-  - component: {fileID: 883112046}
   m_Layer: 0
   m_Name: Image (25)
   m_TagString: Untagged
@@ -10449,25 +10273,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &883112046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883112044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 883112047}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &883112047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11060,7 +10865,6 @@ GameObject:
   - component: {fileID: 937448163}
   - component: {fileID: 937448166}
   - component: {fileID: 937448165}
-  - component: {fileID: 937448164}
   m_Layer: 0
   m_Name: Image (8)
   m_TagString: Untagged
@@ -11087,25 +10891,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &937448164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937448162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 937448165}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &937448165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11932,7 +11717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -411, y: -77}
+  m_AnchoredPosition: {x: -504.3, y: -77}
   m_SizeDelta: {x: 170, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001070598
@@ -12381,6 +12166,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021557565}
   m_CullTransparentMesh: 1
+--- !u!1 &1034136664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1034136665}
+  - component: {fileID: 1034136667}
+  - component: {fileID: 1034136666}
+  m_Layer: 0
+  m_Name: Image (28)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1034136665
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034136664}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000059604587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 443892087}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1034136666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034136664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e705daf4b92bb9f45a8c1c3b0f6343a0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1034136667
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034136664}
+  m_CullTransparentMesh: 1
 --- !u!1 &1046433665
 GameObject:
   m_ObjectHideFlags: 0
@@ -12467,7 +12327,6 @@ GameObject:
   - component: {fileID: 1046843057}
   - component: {fileID: 1046843060}
   - component: {fileID: 1046843059}
-  - component: {fileID: 1046843058}
   m_Layer: 0
   m_Name: Image (3)
   m_TagString: Untagged
@@ -12494,25 +12353,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1046843058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046843056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1046843059}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1046843059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12812,6 +12652,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064759172}
+  m_CullTransparentMesh: 1
+--- !u!1 &1074157493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1074157494}
+  - component: {fileID: 1074157496}
+  - component: {fileID: 1074157495}
+  m_Layer: 0
+  m_Name: Image (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1074157494
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074157493}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000059604587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 443892087}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1074157495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074157493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e705daf4b92bb9f45a8c1c3b0f6343a0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1074157496
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074157493}
   m_CullTransparentMesh: 1
 --- !u!1 &1080116345
 GameObject:
@@ -14289,7 +14204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.7, y: 97}
+  m_AnchoredPosition: {x: -169, y: 97}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1201947689
@@ -15241,7 +15156,6 @@ GameObject:
   - component: {fileID: 1248541841}
   - component: {fileID: 1248541844}
   - component: {fileID: 1248541843}
-  - component: {fileID: 1248541842}
   m_Layer: 0
   m_Name: Image (10)
   m_TagString: Untagged
@@ -15268,25 +15182,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1248541842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248541840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1248541843}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1248541843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15457,7 +15352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -419, y: -416}
+  m_AnchoredPosition: {x: -338.6, y: -416}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1257205460
@@ -15853,7 +15748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 257.5, y: 94.3}
+  m_AnchoredPosition: {x: 346, y: 98}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1291608867
@@ -16402,7 +16297,6 @@ GameObject:
   - component: {fileID: 1356912851}
   - component: {fileID: 1356912854}
   - component: {fileID: 1356912853}
-  - component: {fileID: 1356912852}
   m_Layer: 0
   m_Name: Image (11)
   m_TagString: Untagged
@@ -16429,25 +16323,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1356912852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356912850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1356912853}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1356912853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16761,7 +16636,6 @@ GameObject:
   - component: {fileID: 1416210124}
   - component: {fileID: 1416210127}
   - component: {fileID: 1416210126}
-  - component: {fileID: 1416210125}
   m_Layer: 0
   m_Name: Image (12)
   m_TagString: Untagged
@@ -16788,25 +16662,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1416210125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416210123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1416210126}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1416210126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17438,7 +17293,6 @@ GameObject:
   - component: {fileID: 1480171597}
   - component: {fileID: 1480171600}
   - component: {fileID: 1480171599}
-  - component: {fileID: 1480171598}
   m_Layer: 0
   m_Name: Image (1)
   m_TagString: Untagged
@@ -17465,25 +17319,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1480171598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480171596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1480171599}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1480171599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18751,7 +18586,6 @@ GameObject:
   - component: {fileID: 1569707236}
   - component: {fileID: 1569707239}
   - component: {fileID: 1569707238}
-  - component: {fileID: 1569707237}
   m_Layer: 0
   m_Name: Image (22)
   m_TagString: Untagged
@@ -18778,25 +18612,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1569707237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569707235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1569707238}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1569707238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19169,7 +18984,6 @@ GameObject:
   - component: {fileID: 1589758967}
   - component: {fileID: 1589758970}
   - component: {fileID: 1589758969}
-  - component: {fileID: 1589758968}
   m_Layer: 0
   m_Name: Image (4)
   m_TagString: Untagged
@@ -19196,25 +19010,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1589758968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589758966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1589758969}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1589758969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19434,7 +19229,6 @@ GameObject:
   - component: {fileID: 1611133322}
   - component: {fileID: 1611133325}
   - component: {fileID: 1611133324}
-  - component: {fileID: 1611133323}
   m_Layer: 0
   m_Name: Image (17)
   m_TagString: Untagged
@@ -19461,25 +19255,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1611133323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611133321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1611133324}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1611133324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19808,6 +19583,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1629519800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629519801}
+  - component: {fileID: 1629519803}
+  - component: {fileID: 1629519802}
+  m_Layer: 0
+  m_Name: Image (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1629519801
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629519800}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000059604587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 443892087}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1629519802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629519800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e705daf4b92bb9f45a8c1c3b0f6343a0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1629519803
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629519800}
+  m_CullTransparentMesh: 1
 --- !u!1 &1635415251
 GameObject:
   m_ObjectHideFlags: 0
@@ -19914,7 +19764,6 @@ GameObject:
   - component: {fileID: 1636842117}
   - component: {fileID: 1636842120}
   - component: {fileID: 1636842119}
-  - component: {fileID: 1636842118}
   m_Layer: 0
   m_Name: Image (7)
   m_TagString: Untagged
@@ -19941,25 +19790,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1636842118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1636842116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1636842119}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1636842119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21389,7 +21219,6 @@ GameObject:
   - component: {fileID: 1766694482}
   - component: {fileID: 1766694485}
   - component: {fileID: 1766694484}
-  - component: {fileID: 1766694483}
   m_Layer: 0
   m_Name: Image (23)
   m_TagString: Untagged
@@ -21416,25 +21245,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1766694483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766694481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Rover
-  tileImage: {fileID: 1766694484}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1766694484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22032,7 +21842,6 @@ GameObject:
   - component: {fileID: 1803805479}
   - component: {fileID: 1803805482}
   - component: {fileID: 1803805481}
-  - component: {fileID: 1803805480}
   m_Layer: 0
   m_Name: Image (5)
   m_TagString: Untagged
@@ -22059,25 +21868,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1803805480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803805478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1803805481}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1803805481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22567,7 +22357,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848166283}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22576,7 +22366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 87, y: -416}
+  m_AnchoredPosition: {x: 509.3, y: -422}
   m_SizeDelta: {x: 170, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848166285
@@ -23237,7 +23027,6 @@ GameObject:
   - component: {fileID: 1883432807}
   - component: {fileID: 1883432810}
   - component: {fileID: 1883432809}
-  - component: {fileID: 1883432808}
   m_Layer: 0
   m_Name: Image (21)
   m_TagString: Untagged
@@ -23264,25 +23053,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1883432808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883432806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1883432809}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1883432809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23466,7 +23236,6 @@ GameObject:
   - component: {fileID: 1921779099}
   - component: {fileID: 1921779102}
   - component: {fileID: 1921779101}
-  - component: {fileID: 1921779100}
   m_Layer: 0
   m_Name: Image (6)
   m_TagString: Untagged
@@ -23493,25 +23262,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1921779100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921779098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Ground
-  tileImage: {fileID: 1921779101}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &1921779101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23685,7 +23435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -424, y: 268}
+  m_AnchoredPosition: {x: -505.1, y: 268}
   m_SizeDelta: {x: 170, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944008508
@@ -24011,6 +23761,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 127698650}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1947929891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1947929892}
+  - component: {fileID: 1947929894}
+  - component: {fileID: 1947929893}
+  m_Layer: 0
+  m_Name: Image (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1947929892
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947929891}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000059604587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 443892087}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1947929893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947929891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e705daf4b92bb9f45a8c1c3b0f6343a0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1947929894
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947929891}
+  m_CullTransparentMesh: 1
 --- !u!1 &1948612355
 GameObject:
   m_ObjectHideFlags: 0
@@ -24939,7 +24764,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 424, y: 265}
+  m_AnchoredPosition: {x: 506.5, y: 265}
   m_SizeDelta: {x: 170, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072683836
@@ -25909,7 +25734,6 @@ GameObject:
   - component: {fileID: 2108487586}
   - component: {fileID: 2108487589}
   - component: {fileID: 2108487588}
-  - component: {fileID: 2108487587}
   m_Layer: 0
   m_Name: Image (14)
   m_TagString: Untagged
@@ -25936,25 +25760,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2108487587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2108487585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702f588edb01364bb0ce9ea555532a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: Road
-  tileImage: {fileID: 2108487588}
-  tileSprites:
-  - {fileID: 21300000, guid: 9b30fa92e52a72946be5a8b81d5a98c4, type: 3}
-  - {fileID: 21300000, guid: e84407b44af53d642a0b096468101e77, type: 3}
-  - {fileID: 21300000, guid: a0d04553ebbb83c4f8d89e60db09ec18, type: 3}
-  - {fileID: 21300000, guid: e31793b56681c6f49986ce14de3566bd, type: 3}
 --- !u!114 &2108487588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26087,6 +25892,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110831525}
+  m_CullTransparentMesh: 1
+--- !u!1 &2115761034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2115761035}
+  - component: {fileID: 2115761037}
+  - component: {fileID: 2115761036}
+  m_Layer: 0
+  m_Name: Image (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2115761035
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115761034}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000059604587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 443892087}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2115761036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115761034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e705daf4b92bb9f45a8c1c3b0f6343a0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2115761037
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115761034}
   m_CullTransparentMesh: 1
 --- !u!1 &2122293893
 GameObject:
