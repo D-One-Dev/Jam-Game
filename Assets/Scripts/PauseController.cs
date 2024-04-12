@@ -30,6 +30,7 @@ public class PauseController : MonoBehaviour
             pauseScreen.SetActive(true);
             settingsScreen.SetActive(false);
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             isPaused = true;
         }
         else
@@ -37,6 +38,7 @@ public class PauseController : MonoBehaviour
             pauseScreen.SetActive(false);
             Time.timeScale = 1f;
             Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             isPaused = false;
         }
     }

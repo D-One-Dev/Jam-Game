@@ -21,6 +21,13 @@ public class CameraLook : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        if (PlayerPrefs.GetFloat("PlayerPosY", -10000f) != -10000f)
+        {
+            float playerRotX = PlayerPrefs.GetFloat("PlayerRotX", 0);
+            transform.localRotation = Quaternion.Euler(playerRotX, 0f, 0f);
+            xRotation = transform.localRotation.eulerAngles.x;
+        }
     }
     void Update()
     {

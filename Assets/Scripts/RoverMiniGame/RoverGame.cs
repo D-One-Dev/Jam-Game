@@ -243,7 +243,6 @@ public class RoverGame : MonoBehaviour, IInteractable
 
     public void CheckItem(Vector2Int dir)
     {
-        //Debug.Log(roverPosition + "||" + dir + "||" + itemPoint);
         if (roverPosition + dir == itemPoint)
         {
             hasItem = true;

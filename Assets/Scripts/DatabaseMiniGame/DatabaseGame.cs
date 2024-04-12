@@ -78,7 +78,6 @@ public class DatabaseGame : MonoBehaviour, IInteractable
         {
             if (cursor.localPosition.x >= zone.localPosition.x - zone.rect.width && cursor.localPosition.x <= zone.localPosition.x + zone.rect.width)
             { 
-                //Debug.Log(cursor.localPosition.x + "||" + (zone.localPosition.x - zone.rect.width) + "||" + (zone.localPosition.x + zone.rect.width));
                 return zone;
             }
         }

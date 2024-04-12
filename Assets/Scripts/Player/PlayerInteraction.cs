@@ -59,13 +59,13 @@ public class PlayerInteraction : MonoBehaviour
                     if (playerStatus == 0)
                     {
                         playerStatus = 1;
-                        currentObject.GetComponentInChildren<IInteractable>().TurnOn();
+                        currentObject.GetComponentInChildren<MinigameSelector>().TurnOn();
                         crosshair.enabled = false;
                     }
                     else
                     {
                         playerStatus = 0;
-                        currentObject.GetComponentInChildren<IInteractable>().TurnOff();
+                        currentObject.GetComponentInChildren<MinigameSelector>().TurnOff();
                         crosshair.enabled = true;
                     }
                     break;
