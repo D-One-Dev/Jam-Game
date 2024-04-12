@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,12 @@ public class DatabaseGame : MonoBehaviour, IInteractable
     [SerializeField] private Image progressBar;
     [SerializeField] private int zoneCount;
     [SerializeField] private GameObject gameUI;
+    [SerializeField] private int lives;
+    [SerializeField] private TMP_Text livesText;
+    [SerializeField] private Animator _animator;
+
+    [SerializeField] private AudioClip catchCorrect, catchWrong, gameWin, gameLoose;
+
     private int progress;
     private Controls _controls;
     private bool active;
@@ -43,10 +50,24 @@ public class DatabaseGame : MonoBehaviour, IInteractable
                 zone.sizeDelta = new Vector2(zone.sizeDelta.x / 1.5f, zone.sizeDelta.y);
                 progress++;
                 progressBar.fillAmount = (float)progress / (zoneCount * 3);
+                if (progress == zoneCount * 3)
+                {
+                    Debug.Log("Win");
+                    _animator.SetTrigger("Win");
+                    SoundController.instance.PlaySoundRandomPitch(gameWin);
+                }
+                else SoundController.instance.PlaySoundRandomPitch(catchCorrect);
             }
             else
             {
-                Debug.Log("Loose");
+                lives--;
+                livesText.text = "Попыток: " + lives;
+                if (lives == 0)
+                {
+                    SoundController.instance.PlaySoundRandomPitch(gameLoose);
+                    Debug.Log("Loose");
+                }
+                else SoundController.instance.PlaySoundRandomPitch(catchWrong);
             }
         }
     }

@@ -60,11 +60,13 @@ public class PlayerInteraction : MonoBehaviour
                     {
                         playerStatus = 1;
                         currentObject.GetComponentInChildren<IInteractable>().TurnOn();
+                        crosshair.enabled = false;
                     }
                     else
                     {
                         playerStatus = 0;
                         currentObject.GetComponentInChildren<IInteractable>().TurnOff();
+                        crosshair.enabled = true;
                     }
                     break;
                 case "Bed":

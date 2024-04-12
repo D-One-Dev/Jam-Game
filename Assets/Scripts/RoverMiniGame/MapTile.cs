@@ -23,6 +23,9 @@ public class MapTile : MonoBehaviour
             case "Item":
                 tileImage.sprite = tileSprites[3];
                 break;
+            case "Base":
+                tileImage.sprite = tileSprites[4];
+                break;
             default:
                 tileImage.sprite = tileSprites[0];
                 break;

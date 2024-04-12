@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class SettingsController : MonoBehaviour
@@ -10,6 +11,7 @@ public class SettingsController : MonoBehaviour
     [SerializeField] private Toggle fullscreenToggle;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private TMP_Text qualityText;
+    [SerializeField] private AudioMixerGroup _audioMixer;
     private int resolution;
     private int quality;
     private bool fullscreen;
@@ -27,7 +29,8 @@ public class SettingsController : MonoBehaviour
                 fullscreen = true;
                 break;
         }
-        volume = PlayerPrefs.GetInt("Volume", 50);
+        volume = PlayerPrefs.GetInt("Volume", 100);
+        _audioMixer.audioMixer.SetFloat("Volume", Mathf.Lerp(-80f, 0f, volume / 100f));
         Application.targetFrameRate = -1;
         QualitySettings.vSyncCount = 1;
         ApplyResolution();
@@ -102,6 +105,7 @@ public class SettingsController : MonoBehaviour
     public void ChangeVolume()
     {
         volume = (int)volumeSlider.value;
+        _audioMixer.audioMixer.SetFloat("Volume", Mathf.Lerp(-80f, 0f, volume/100f));
         ApplySettings();
     }
 
