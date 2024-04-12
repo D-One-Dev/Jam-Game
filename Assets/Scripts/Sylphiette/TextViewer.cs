@@ -2,7 +2,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace Silfieta
+namespace Sylphiette
 {
     public class TextViewer : MonoBehaviour
     {

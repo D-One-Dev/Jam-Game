@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Silfieta
+namespace Sylphiette
 {
-    public class SilfietaDialogueSystem : MonoBehaviour
+    public class SylphietteDialogueSystem : MonoBehaviour
     {
         [SerializeField] private TextViewer textViewer;
         
-        public SilfietaDialogueBlock[] dialogueBlocks;
+        public SylphietteDialogueBlock[] dialogueBlocks;
 
-        public static SilfietaDialogueSystem Instance;
+        public static SylphietteDialogueSystem Instance;
 
         private int _currentDialogue;
         
