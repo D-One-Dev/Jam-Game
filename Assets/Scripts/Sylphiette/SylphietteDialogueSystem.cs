@@ -27,7 +27,7 @@ namespace Sylphiette
         {
             for (int i = 0; i < dialogueBlocks[_currentDialogue].messages.Length; i++)
             {
-                textViewer.SendMessage(dialogueBlocks[_currentDialogue].messages[i]);
+                textViewer.Show(dialogueBlocks[_currentDialogue].messages[i]);
 
                 while (!textViewer.isTextShown) yield return new WaitForSeconds(1f);
 

@@ -25,7 +25,7 @@ public class PickupController : MonoBehaviour
 
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
                 {
-                    PickupObject(hit.transform.gameObject);
+                    if (hit.transform.gameObject.layer != 5) PickupObject(hit.transform.gameObject);
                 }
             }
             else

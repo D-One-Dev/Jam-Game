@@ -8,6 +8,7 @@ TagManager:
   - Bed
   - Left Border
   - Right Border
+  - WireCollider
   layers:
   - Default
   - TransparentFX
