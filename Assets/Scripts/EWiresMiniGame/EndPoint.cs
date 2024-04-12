@@ -9,12 +9,9 @@ namespace EWiresMiniGame
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.TryGetComponent(out Wire wire))
+            if (other.CompareTag("Wire"))
             {
-                if (wire.wireType == wireType)
-                {
-                    wiresGame.isEndPointActive[wireType] = true;
-                }
+                wiresGame.SetWireConnected(wireType);
             }
         }
     }

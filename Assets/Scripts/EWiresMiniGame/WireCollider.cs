@@ -4,9 +4,11 @@ namespace EWiresMiniGame
 {
     public class WireCollider : MonoBehaviour
     {
+        public EWiresGame eWiresGame;
+        
         public void OnTriggerEnter(Collider col)
         {
-            if (col.CompareTag("WireCollider")) print("Collide"); //reset
+            if (col.CompareTag("WireCollider") || col.CompareTag("Wire")) eWiresGame.ResetGame();
         }
     }
 }
