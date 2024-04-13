@@ -225,7 +225,8 @@ public class RoverGame : MonoBehaviour, IInteractable
         if (currentEnergy == 0)
         {
             SoundController.instance.PlaySoundRandomPitch(gameLoose);
-            Debug.Log("Loose");
+            DeathController.instance.TriggerDeath("Луноход не смог доставить необходимые материалы. Вы остались на луне и погибли от голода");
+            //Debug.Log("Loose");
         }
     }
 
