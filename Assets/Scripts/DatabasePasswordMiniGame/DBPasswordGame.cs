@@ -91,6 +91,7 @@ namespace DatabasePasswordMiniGame
                 else
                 {
                     print("thats right");
+                    DayCounter.Instance.SetTrigger("BD");
                 }
             }
         }

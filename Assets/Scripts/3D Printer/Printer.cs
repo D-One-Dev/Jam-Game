@@ -59,6 +59,7 @@ namespace _3D_Printer
             spawnedObject.transform.localScale = new Vector3(1, 1, 1);
             
             showItemsList.text = "Предмет успешно получен";
+            DayCounter.Instance.SetTrigger("3D");
         }
 
         private bool IsAllItemsReceived()

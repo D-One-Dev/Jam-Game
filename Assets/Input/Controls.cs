@@ -143,6 +143,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Shift"",
+                    ""type"": ""Button"",
+                    ""id"": ""8ff794aa-eafd-4120-bbe2-a44680c95590"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -332,6 +341,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Four"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a4a5d1cd-a773-4ba3-9ba8-3011a6d33807"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shift"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -353,6 +373,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Gameplay_Two = m_Gameplay.FindAction("Two", throwIfNotFound: true);
         m_Gameplay_Three = m_Gameplay.FindAction("Three", throwIfNotFound: true);
         m_Gameplay_Four = m_Gameplay.FindAction("Four", throwIfNotFound: true);
+        m_Gameplay_Shift = m_Gameplay.FindAction("Shift", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -427,6 +448,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Gameplay_Two;
     private readonly InputAction m_Gameplay_Three;
     private readonly InputAction m_Gameplay_Four;
+    private readonly InputAction m_Gameplay_Shift;
     public struct GameplayActions
     {
         private @Controls m_Wrapper;
@@ -444,6 +466,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @Two => m_Wrapper.m_Gameplay_Two;
         public InputAction @Three => m_Wrapper.m_Gameplay_Three;
         public InputAction @Four => m_Wrapper.m_Gameplay_Four;
+        public InputAction @Shift => m_Wrapper.m_Gameplay_Shift;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -492,6 +515,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Four.started += instance.OnFour;
             @Four.performed += instance.OnFour;
             @Four.canceled += instance.OnFour;
+            @Shift.started += instance.OnShift;
+            @Shift.performed += instance.OnShift;
+            @Shift.canceled += instance.OnShift;
         }
 
         private void UnregisterCallbacks(IGameplayActions instance)
@@ -535,6 +561,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Four.started -= instance.OnFour;
             @Four.performed -= instance.OnFour;
             @Four.canceled -= instance.OnFour;
+            @Shift.started -= instance.OnShift;
+            @Shift.performed -= instance.OnShift;
+            @Shift.canceled -= instance.OnShift;
         }
 
         public void RemoveCallbacks(IGameplayActions instance)
@@ -567,5 +596,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnTwo(InputAction.CallbackContext context);
         void OnThree(InputAction.CallbackContext context);
         void OnFour(InputAction.CallbackContext context);
+        void OnShift(InputAction.CallbackContext context);
     }
 }

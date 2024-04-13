@@ -256,6 +256,7 @@ public class PipeController : MonoBehaviour, IInteractable
             Debug.Log("Win");
             SoundController.instance.PlaySoundRandomPitch(gameWin);
             _animator.SetTrigger("Win");
+            DayCounter.Instance.SetTrigger("Pipes");
         }
     }
 

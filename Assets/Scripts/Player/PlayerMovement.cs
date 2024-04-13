@@ -7,10 +7,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float gravity;
     [SerializeField] private Transform cam;
     private Controls _controls;
+    private bool shift;
     private float grav;
     private void Awake()
     {
         _controls = new Controls();
+        _controls.Gameplay.Shift.performed += ctx => shift = true;
+        _controls.Gameplay.Shift.canceled += ctx => shift = false;
     }
     private void OnEnable()
     {
@@ -44,7 +47,9 @@ public class PlayerMovement : MonoBehaviour
                 Vector2 input = _controls.Gameplay.Movement.ReadValue<Vector2>();
                 if (input != Vector2.zero) SoundController.instance.StartWalk();
                 else SoundController.instance.StopWalk();
-                Vector3 movement = movementSpeed * Time.deltaTime * (input.x * transform.right + input.y * transform.forward);
+                Vector3 movement;
+                if(shift) movement = movementSpeed * 2 * Time.deltaTime * (input.x * transform.right + input.y * transform.forward);
+                else movement = movementSpeed * Time.deltaTime * (input.x * transform.right + input.y * transform.forward);
                 _characterController.Move(movement);
             }
             else SoundController.instance.StopWalk();

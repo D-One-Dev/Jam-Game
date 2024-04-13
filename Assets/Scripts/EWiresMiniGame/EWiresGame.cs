@@ -137,6 +137,7 @@ namespace EWiresMiniGame
                 SylphietteDialogueSystem.Instance.StartNextDialogue();
                 activatedElectricalPanelSound.Play();
                 print("Electric wires mini-game completed");
+                DayCounter.Instance.SetTrigger("Wires");
                 
                 for (int i = 0; i < _wirePath.Count; i++)
                 {

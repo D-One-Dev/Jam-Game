@@ -2,36 +2,36 @@ using UnityEngine;
 
 public class RecyclerController : MonoBehaviour
 {
-    [SerializeField] private string[] day2Tasks;
-    [SerializeField] private string[] day4Tasks;
-    [SerializeField] private string[] day6Tasks;
+    [SerializeField] private string[] day1Tasks;
+    [SerializeField] private string[] day3Tasks;
+    [SerializeField] private string[] day5Tasks;
 
-    [SerializeField] private GameObject day3Object, day5Object, day7Object;
+    [SerializeField] private GameObject day2Object, day4Object, day6Object;
 
     private int currentDay;
 
-    private bool[] day2Completed;
-    private bool[] day4Completed;
-    private bool[] day6Completed;
+    private bool[] day1Completed;
+    private bool[] day3Completed;
+    private bool[] day5Completed;
 
     private void Start()
     {
-        day2Completed = new bool[day2Tasks.Length];
-        day4Completed = new bool[day4Tasks.Length];
-        day6Completed = new bool[day6Tasks.Length];
+        day1Completed = new bool[day1Tasks.Length];
+        day3Completed = new bool[day3Tasks.Length];
+        day5Completed = new bool[day5Tasks.Length];
 
         currentDay = DayCounter.Instance.currentDay;
 
         switch (currentDay)
         {
-            case 3:
-                Instantiate(day3Object, transform.position, Quaternion.identity);
+            case 2:
+                Instantiate(day2Object, transform.position, Quaternion.identity);
                 break;
-            case 5:
-                Instantiate(day5Object, transform.position, Quaternion.identity);
+            case 4:
+                Instantiate(day4Object, transform.position, Quaternion.identity);
                 break;
-            case 7:
-                Instantiate(day7Object, transform.position, Quaternion.identity);
+            case 6:
+                Instantiate(day6Object, transform.position, Quaternion.identity);
                 break;
             default:
                 break;
@@ -45,14 +45,14 @@ public class RecyclerController : MonoBehaviour
         {
             switch (currentDay)
             {
-                case 2:
-                    day2Completed[obj] = true;
+                case 1:
+                    day1Completed[obj] = true;
                     break;
-                case 4:
-                    day4Completed[obj] = true;
+                case 3:
+                    day3Completed[obj] = true;
                     break;
-                case 6:
-                    day6Completed[obj] = true;
+                case 5:
+                    day5Completed[obj] = true;
                     break;
                 default:
                     break;
@@ -68,22 +68,22 @@ public class RecyclerController : MonoBehaviour
     {
         switch (currentDay)
         {
-            case 2:
-                for(int i = 0; i < day2Tasks.Length; i++)
+            case 1:
+                for(int i = 0; i < day1Tasks.Length; i++)
                 {
-                    if (collision.CompareTag(day2Tasks[i])) return i;
+                    if (collision.CompareTag(day1Tasks[i])) return i;
                 }
                 return -1;
-            case 4:
-                for (int i = 0; i < day4Tasks.Length; i++)
+            case 3:
+                for (int i = 0; i < day3Tasks.Length; i++)
                 {
-                    if (collision.CompareTag(day4Tasks[i])) return i;
+                    if (collision.CompareTag(day3Tasks[i])) return i;
                 }
                 return -1;
-            case 6:
-                for (int i = 0; i < day6Tasks.Length; i++)
+            case 5:
+                for (int i = 0; i < day5Tasks.Length; i++)
                 {
-                    if (collision.CompareTag(day6Tasks[i])) return i;
+                    if (collision.CompareTag(day5Tasks[i])) return i;
                 }
                 return -1;
             default:
@@ -96,8 +96,8 @@ public class RecyclerController : MonoBehaviour
         bool completed = true;
         switch (currentDay)
         {
-            case 2:
-                foreach(bool task in day2Completed)
+            case 1:
+                foreach(bool task in day1Completed)
                 {
                     if (!task)
                     {
@@ -106,8 +106,8 @@ public class RecyclerController : MonoBehaviour
                     }
                 }
                 break;
-            case 4:
-                foreach (bool task in day4Completed)
+            case 3:
+                foreach (bool task in day3Completed)
                 {
                     if (!task)
                     {
@@ -116,8 +116,8 @@ public class RecyclerController : MonoBehaviour
                     }
                 }
                 break;
-            case 6:
-                foreach (bool task in day6Completed)
+            case 5:
+                foreach (bool task in day5Completed)
                 {
                     if (!task)
                     {
@@ -132,6 +132,7 @@ public class RecyclerController : MonoBehaviour
         if (completed)
         {
             Debug.Log("Items for recycler collected");
+            DayCounter.Instance.SetTrigger("Recycle");
         }
     }
 }
