@@ -21,6 +21,8 @@ namespace EWiresMiniGame
 
         private Wire _currentWire;
 
+        private bool _isActive;
+
         private Controls _controls;
 
         private void Awake()
@@ -64,7 +66,7 @@ namespace EWiresMiniGame
 
         private void MoveUp()
         {
-            if (PlayerInteraction.instance.playerStatus != 1) return;
+            if (PlayerInteraction.instance.playerStatus != 1 || !_isActive || _currentWire == null) return;
             
             if (_currentWire.transform.localPosition.y + 170 > 450) return;
             
@@ -78,7 +80,7 @@ namespace EWiresMiniGame
 
         private void MoveDown()
         {
-            if (PlayerInteraction.instance.playerStatus != 1) return;
+            if (PlayerInteraction.instance.playerStatus != 1 || !_isActive || _currentWire == null) return;
             
             if (_currentWire.transform.localPosition.y - 170 < -450) return;
             
@@ -91,7 +93,7 @@ namespace EWiresMiniGame
         }
         private void MoveLeft()
         {
-            if (PlayerInteraction.instance.playerStatus != 1) return;
+            if (PlayerInteraction.instance.playerStatus != 1 || !_isActive || _currentWire == null) return;
             
             if (_currentWire.transform.localPosition.x - 170 < -520) return;
             
@@ -104,7 +106,7 @@ namespace EWiresMiniGame
         }
         private void MoveRight()
         {
-            if (PlayerInteraction.instance.playerStatus != 1) return;
+            if (PlayerInteraction.instance.playerStatus != 1 || !_isActive || _currentWire == null) return;
             
             if (_currentWire.transform.localPosition.x + 170 > 520) return;
 
@@ -193,11 +195,13 @@ namespace EWiresMiniGame
         public void TurnOn()
         {
             Cursor.lockState = CursorLockMode.None;
+            _isActive = true;
         }
 
         public void TurnOff()
         {
             Cursor.lockState = CursorLockMode.Locked;
+            _isActive = false;
         }
     }
 }
