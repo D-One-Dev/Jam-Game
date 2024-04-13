@@ -135,7 +135,13 @@ namespace EWiresMiniGame
             if (_currentWire == null)
             {
                 SylphietteDialogueSystem.Instance.StartNextDialogue();
+                activatedElectricalPanelSound.Play();
                 print("Electric wires mini-game completed");
+                
+                for (int i = 0; i < _wirePath.Count; i++)
+                {
+                    Destroy(_wirePath[i]);
+                }
             }
         }
         
@@ -149,6 +155,8 @@ namespace EWiresMiniGame
             wcollider.transform.localPosition = position;
             
             _wirePath.Add(wcollider);
+            
+            wirePaveSound.Play();
         }
 
         private void SelectWire(int type)
