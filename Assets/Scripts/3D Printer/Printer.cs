@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace _3D_Printer
 {
-    public class Printer : MonoBehaviour
+    public class Printer : MonoBehaviour, IInteractable
     {
         [SerializeField] private List<string> items = new List<string>();
         [SerializeField] private List<bool> isItemReceived;
@@ -70,5 +70,9 @@ namespace _3D_Printer
 
             return true;
         }
+
+        public void TurnOn() {}
+
+        public void TurnOff() {}
     }
 }
