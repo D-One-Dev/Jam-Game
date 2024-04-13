@@ -11,7 +11,11 @@ namespace EWiresMiniGame
         {
             if (other.CompareTag("Wire"))
             {
-                wiresGame.SetWireConnected(wireType);
+                if (other.GetComponent<Wire>().wireType == wireType)
+                {
+                    wiresGame.SetWireConnected(wireType);
+                }
+                
             }
         }
     }
