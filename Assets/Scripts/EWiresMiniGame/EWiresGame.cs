@@ -1,10 +1,17 @@
 ﻿using System.Collections.Generic;
+using Sylphiette;
 using UnityEngine;
 
 namespace EWiresMiniGame
 {
     public class EWiresGame : MonoBehaviour, IInteractable
     {
+        [Header("Sound")] 
+        [SerializeField] private AudioSource activatedElectricalPanelSound;
+        [SerializeField] private AudioSource wireConnectSound;
+        [SerializeField] private AudioSource wirePaveSound;
+        
+        [Header("Settings")]
         [SerializeField] private GameObject wirePathCollider;
         [SerializeField] private Wire[] wires;
 
@@ -123,8 +130,13 @@ namespace EWiresMiniGame
                 
                 if (_currentWire != null) break;
             }
-            
-            if (_currentWire == null) print("Electric wires mini-game completed");
+
+            //Game complete
+            if (_currentWire == null)
+            {
+                SylphietteDialogueSystem.Instance.StartNextDialogue();
+                print("Electric wires mini-game completed");
+            }
         }
         
         private void CreateWirePath(Vector3 position)
