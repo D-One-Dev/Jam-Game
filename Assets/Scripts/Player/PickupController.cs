@@ -6,6 +6,8 @@ public class PickupController : MonoBehaviour
     
     [SerializeField] private Transform holdArea;
 
+    [SerializeField] private LayerMask _layermask;
+
     private GameObject heldObj;
     private Rigidbody heldObjRB;
 
@@ -15,6 +17,13 @@ public class PickupController : MonoBehaviour
     [SerializeField] private float pickupForce = 150f;
     [SerializeField] private float throwForce = 150f;
 
+    public static PickupController instance;
+
+    private void Start()
+    {
+        instance = this;
+    }
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -23,9 +32,11 @@ public class PickupController : MonoBehaviour
             {
                 RaycastHit hit;
 
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
+                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange, _layermask))
                 {
-                    if (hit.transform.gameObject.layer != 5) PickupObject(hit.transform.gameObject);
+                    //if (hit.transform.gameObject.layer != 5 && hit.transform.gameObject.layer != 25) PickupObject(hit.transform.gameObject);
+                    //if (hit.transform.gameObject.layer != 5)
+                    PickupObject(hit.transform.gameObject);
                 }
             }
             else
@@ -70,7 +81,7 @@ public class PickupController : MonoBehaviour
         }
     }
     
-    private void DropObject()
+    public void DropObject()
     {
         heldObjRB.useGravity = true;
         heldObjRB.drag = 1;
@@ -84,5 +95,16 @@ public class PickupController : MonoBehaviour
     {
         DropObject();
         heldObjRB.AddForce(transform.forward * throwForce);
+    }
+
+    public void DropObjectConstant()
+    {
+        heldObjRB.useGravity = true;
+        heldObjRB.drag = 1;
+        //heldObjRB.constraints = RigidbodyConstraints.None;
+
+        heldObj.layer = 25;
+        heldObjRB.transform.parent = null;
+        heldObj = null;
     }
 }

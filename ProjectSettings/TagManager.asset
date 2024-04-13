@@ -10,6 +10,8 @@ TagManager:
   - Right Border
   - WireCollider
   - Wire
+  - Cube
+  - Cat
   layers:
   - Default
   - TransparentFX
@@ -25,7 +27,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - NonRayCast
   - 
   - 
   - 
@@ -36,7 +38,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - CantPickUp
   - 
   - 
   - 
