@@ -10,12 +10,14 @@ public class SoundController : MonoBehaviour
         instance = this;
     }
 
-    public void PlaySound(AudioClip sound)
+    public void PlaySound(AudioClip sound, float volume = 1f)
     {
+        _AudioSource.volume = volume;
         _AudioSource.PlayOneShot(sound);
     }
-    public void PlaySoundRandomPitch(AudioClip sound)
+    public void PlaySoundRandomPitch(AudioClip sound, float volume = 1f)
     {
+        _AudioSource.volume = volume;
         _AudioSource.pitch = Random.Range(.9f, 1.1f);
         _AudioSource.PlayOneShot(sound);
     }
