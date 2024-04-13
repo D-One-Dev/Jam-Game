@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DatabaseGame : MonoBehaviour, IInteractable
@@ -15,6 +16,8 @@ public class DatabaseGame : MonoBehaviour, IInteractable
     [SerializeField] private Animator _animator;
 
     [SerializeField] private AudioClip catchCorrect, catchWrong, gameWin, gameLoose;
+
+    [SerializeField] private UnityEvent onCompleteGame;
 
     private int progress;
     private Controls _controls;
@@ -54,6 +57,8 @@ public class DatabaseGame : MonoBehaviour, IInteractable
                     Debug.Log("Win");
                     _animator.SetTrigger("Win");
                     SoundController.instance.PlaySoundRandomPitch(gameWin);
+                    
+                    onCompleteGame?.Invoke();
                 }
                 else SoundController.instance.PlaySoundRandomPitch(catchCorrect);
             }

@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/OLD/TestScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Scenes/GameplayOLDOLD.unity
+    path: Assets/Scenes/GameplayOLD.unity
     guid: 37d6fe3ced626ac4894dc9f6eadd0b72
   - enabled: 0
     path: Assets/Scenes/GameplayOLD.unity

@@ -7,7 +7,6 @@ namespace _3D_Printer
     public class Printer : MonoBehaviour
     {
         [SerializeField] private List<string> items = new List<string>();
-        
         [SerializeField] private List<bool> isItemReceived;
         
         [SerializeField] private TMP_Text showItemsList;
@@ -44,12 +43,22 @@ namespace _3D_Printer
 
                     if (IsAllItemsReceived())
                     {
-                        GameObject spawnedObject = Instantiate(outputItem, spawnPlace.position, Quaternion.identity);
+                        tag = "Minigame";
 
-                        spawnedObject.transform.localScale = new Vector3(1, 1, 1);
+                        showItemsList.text =
+                            "Требуемые предметы загружены, пожалуйста запустите процесс печати, следуя инстуркции";
                     }
                 }
             }
+        }
+
+        public void SpawnOutputItem()
+        {
+            GameObject spawnedObject = Instantiate(outputItem, spawnPlace.position, Quaternion.identity);
+
+            spawnedObject.transform.localScale = new Vector3(1, 1, 1);
+            
+            showItemsList.text = "Предмет успешно получен";
         }
 
         private bool IsAllItemsReceived()
