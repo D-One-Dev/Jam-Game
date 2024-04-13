@@ -29,13 +29,13 @@ namespace _3D_Printer
         {
             if (other.TryGetComponent(out Item item))
             {
-                if (items.Contains(item.name))
+                if (items.Contains(item.itemName))
                 {
                     Destroy(other.gameObject);
 
                     for (int i = 0; i < items.Count; i++)
                     {
-                        if (items[i] == item.name)
+                        if (items[i] == item.itemName)
                         {
                             isItemReceived[i] = true;
                         }

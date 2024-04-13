@@ -8,8 +8,11 @@ public class MainMenuController : MonoBehaviour
 
     private void Start()
     {
-        if(PlayerPrefs.GetInt("Day", 1) == 1) loadGameButton.interactable = false;
-        else loadGameButton.interactable = true;
+        if(loadGameButton != null)
+        {
+            if(PlayerPrefs.GetInt("Day", 1) == 1) loadGameButton.interactable = false;
+            else loadGameButton.interactable = true;
+        }
     }
 
     public void QuitGame()
@@ -34,5 +37,10 @@ public class MainMenuController : MonoBehaviour
     public void LoadGame()
     {
         _sceneLoader.StartSceneLoading("Gameplay");
+    }
+
+    public void GoToMenu()
+    {
+        _sceneLoader.StartSceneLoading("Menu");
     }
 }
