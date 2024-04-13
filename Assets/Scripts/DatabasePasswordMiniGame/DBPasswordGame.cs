@@ -52,40 +52,46 @@ namespace DatabasePasswordMiniGame
 
         private void OnAClick()
         {
-            if (PlayerInteraction.instance.playerStatus != 1) return;
-            
-            isEnteringPassword = !isEnteringPassword;
-
-            if (isEnteringPassword)
+            if (isActive)
             {
-                passwordText.text = "Введенный пароль: ";
-                _enteredPassword = "";
-                isFirstSymbol = true;
+                if (PlayerInteraction.instance.playerStatus != 1) return;
+            
+                isEnteringPassword = !isEnteringPassword;
+
+                if (isEnteringPassword)
+                {
+                    passwordText.text = "Введенный пароль: ";
+                    _enteredPassword = "";
+                    isFirstSymbol = true;
+                }
             }
         }
 
         private void OnDClick()
         {
-            if (PlayerInteraction.instance.playerStatus != 1 || isEnteringPassword) return;
+            if (isActive)
+            {
+                if (PlayerInteraction.instance.playerStatus != 1 || isEnteringPassword) return;
             
-            if (_enteredPassword != password)
-            {
-                tryCount--;
-                tryCountText.text = "Осталось попыток: " + tryCount;
-
-                matchText.text = "Совпадений букв: " + CountMatchingChars(_enteredPassword, password);
-                placeMatchText.text = "Совпадений букв по месту: " + CountPlaceMatchingChars(_enteredPassword, password);
-
-                if (tryCount == 0)
+                if (_enteredPassword != password)
                 {
-                    //SoundController.instance.PlaySoundRandomPitch(gameLoose);
-                    DeathController.instance.TriggerDeath("BRUH");
-                    Debug.Log("Loose");
+                    tryCount--;
+                    tryCountText.text = "Осталось попыток: " + tryCount;
+
+                    matchText.text = "Совпадений букв: " + CountMatchingChars(_enteredPassword, password);
+                    placeMatchText.text = "Совпадений букв по месту: " + CountPlaceMatchingChars(_enteredPassword, password);
+
+                    if (tryCount == 0)
+                    {
+                        //SoundController.instance.PlaySoundRandomPitch(gameLoose);
+                        DeathController.instance.TriggerDeath("BRUH");
+                        Debug.Log("Loose");
+                    }
                 }
-            }
-            else
-            {
-                print("thats right");
+                else
+                {
+                    print("thats right");
+                }
             }
         }
         
