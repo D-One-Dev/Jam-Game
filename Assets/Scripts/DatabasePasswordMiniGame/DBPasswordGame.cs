@@ -25,7 +25,7 @@ namespace DatabasePasswordMiniGame
         {
             _controls = new Controls();
             _controls.Gameplay.Left.performed += ctx => OnAClick();
-            _controls.Gameplay.Right.performed += ctx => OnDClick();
+            _controls.Gameplay.Enter.performed += ctx => OnEnterClick();
         }
         
         private void OnEnable()
@@ -67,7 +67,7 @@ namespace DatabasePasswordMiniGame
             }
         }
 
-        private void OnDClick()
+        private void OnEnterClick()
         {
             if (isActive)
             {
