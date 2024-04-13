@@ -93,15 +93,15 @@ public class RecyclerController : MonoBehaviour
 
     private void CheckTask()
     {
-        bool completed = false;
+        bool completed = true;
         switch (currentDay)
         {
             case 2:
                 foreach(bool task in day2Completed)
                 {
-                    if (task)
+                    if (!task)
                     {
-                        completed = true;
+                        completed = false;
                         break;
                     }
                 }
@@ -109,9 +109,9 @@ public class RecyclerController : MonoBehaviour
             case 4:
                 foreach (bool task in day4Completed)
                 {
-                    if (task)
+                    if (!task)
                     {
-                        completed = true;
+                        completed = false;
                         break;
                     }
                 }
@@ -119,9 +119,9 @@ public class RecyclerController : MonoBehaviour
             case 6:
                 foreach (bool task in day6Completed)
                 {
-                    if (task)
+                    if (!task)
                     {
-                        completed = true;
+                        completed = false;
                         break;
                     }
                 }

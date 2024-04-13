@@ -36,7 +36,7 @@ public class DatabaseGame : MonoBehaviour, IInteractable
     private void FixedUpdate()
     {
         cursor.position += new Vector3(cursorMoveSpeed, 0f, 0f);
-        if (cursor.position.x < leftBorder.position.x || cursor.position.x > rightBorder.position.x) cursorMoveSpeed *= -1;
+        if (cursor.localPosition.x < leftBorder.localPosition.x || cursor.localPosition.x > rightBorder.localPosition.x) cursorMoveSpeed *= -1;
     }
 
     private void Catch()
