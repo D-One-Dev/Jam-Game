@@ -12,6 +12,7 @@ public class Pipe : MonoBehaviour
     public bool movable;
     public bool updated;
     public bool filled;
+
     public void RotatePipe(bool dir)
     {
         if (dir)
@@ -84,6 +85,10 @@ public class Pipe : MonoBehaviour
                     _image.sprite = unfilledSprites[3];
                 }
                 break;
+            case -1:
+                break;
+            case -2:
+                break;
             default:
                 if (filled)
                 {
@@ -95,6 +100,5 @@ public class Pipe : MonoBehaviour
                 }
                 break;
         }
-
     }
 }

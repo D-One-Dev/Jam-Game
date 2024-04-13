@@ -17,7 +17,7 @@ public class PipeController : MonoBehaviour, IInteractable
     [SerializeField] private AudioClip cursorMove, pipeRotate, gameWin, gameLoose;
 
     private Vector2Int currentPipe = -Vector2Int.one;
-    private int currentAir;
+    [SerializeField] private int currentAir;
     private Pipe[,] tileGrid;
     private Image[,] cursorGrid;
     private Controls _controls;
@@ -54,6 +54,7 @@ public class PipeController : MonoBehaviour, IInteractable
         foreach (Pipe tile in tiles)
         {
             tileGrid[i, j] = tile;
+
             if (i < gridSize.x - 1) i++;
             else
             {
@@ -251,6 +252,7 @@ public class PipeController : MonoBehaviour, IInteractable
     {
         if (tileGrid[endPipe.x, endPipe.y].filled)
         {
+            gameWon = true;
             Debug.Log("Win");
             SoundController.instance.PlaySoundRandomPitch(gameWin);
             _animator.SetTrigger("Win");
