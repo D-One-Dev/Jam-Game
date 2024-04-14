@@ -17,6 +17,7 @@ public class RocketRoomDoor : MonoBehaviour
             if (item.itemName == "Шестеренка")
             {
                 doorCollider.locked = false;
+                Destroy(other.gameObject);
             }
         }
     }

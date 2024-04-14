@@ -130,7 +130,6 @@ public class RoverGame : MonoBehaviour, IInteractable
                     SoundController.instance.PlaySoundRandomPitch(rockBreak);
                 }
             }
-
         }
     }
 

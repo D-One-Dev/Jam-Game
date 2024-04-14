@@ -70,7 +70,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c1ce9119866067b42972a182417336ba, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8788669339521739283}
+      addedObject: {fileID: 3107678501475641346}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c1ce9119866067b42972a182417336ba, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1324225844258212113}
@@ -83,8 +83,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c1ce9119866067b42972a182417336ba, type: 3}
   m_PrefabInstance: {fileID: 3344721543213383128}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &8788669339521739283
-MeshCollider:
+--- !u!136 &3107678501475641346
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -101,10 +101,11 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2534964839176971238, guid: c1ce9119866067b42972a182417336ba, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.0093512265
+  m_Height: 0.025735324
+  m_Direction: 2
+  m_Center: {x: 1.08039044e-17, y: 0.00047485827, z: 0.00321431}
 --- !u!54 &1324225844258212113
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -131,7 +132,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &7914463052636873325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,4 +145,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d71f3157deb476fbf413b1ccf15adc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Boor
+  itemName: "\u0411\u0443\u0440"
