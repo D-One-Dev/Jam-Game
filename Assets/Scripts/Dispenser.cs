@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Dispenser : MonoBehaviour
 {
@@ -46,6 +47,18 @@ public class Dispenser : MonoBehaviour
                 spawnedObject = Instantiate(metalOre, spawnPlace.position, Quaternion.identity);
                 spawnedObject.transform.localScale = new Vector3(1, 1, 1);
                 break;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Item item))
+        {
+            if (item.itemName == "Бур")
+            {
+                //Улучшение бура для лунахода
+                Destroy(other.gameObject);
+            }
         }
     }
 }
