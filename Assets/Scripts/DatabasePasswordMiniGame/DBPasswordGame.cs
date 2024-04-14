@@ -72,6 +72,9 @@ namespace DatabasePasswordMiniGame
             if (isActive)
             {
                 if (PlayerInteraction.instance.playerStatus != 1 || isEnteringPassword) return;
+                
+                _enteredPassword = _enteredPassword.ToLower();
+                password = password.ToLower();
             
                 if (_enteredPassword != password)
                 {
