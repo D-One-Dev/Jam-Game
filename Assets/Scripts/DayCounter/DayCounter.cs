@@ -23,11 +23,12 @@ public class DayCounter : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         currentDay = PlayerPrefs.GetInt("Day", 1);
     }
     void Start()
     {
-        Instance = this;
+        //Instance = this;
     }
     
     public void GoToNextDay()

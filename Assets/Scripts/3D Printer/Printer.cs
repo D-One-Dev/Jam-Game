@@ -21,6 +21,7 @@ namespace _3D_Printer
 
         private void Start()
         {
+            Debug.Log(DayCounter.Instance.currentDay);
             switch (DayCounter.Instance.currentDay)
             {
                 case 2:
