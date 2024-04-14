@@ -71,19 +71,32 @@ public class RecyclerController : MonoBehaviour
             case 1:
                 for(int i = 0; i < day1Tasks.Length; i++)
                 {
-                    if (collision.CompareTag(day1Tasks[i])) return i;
+                    if (collision.TryGetComponent(out Item item))
+                    {
+                        if (item.itemName == day1Tasks[i]) return i;
+                    }
                 }
                 return -1;
             case 3:
                 for (int i = 0; i < day3Tasks.Length; i++)
                 {
-                    if (collision.CompareTag(day3Tasks[i])) return i;
+                    if (collision.TryGetComponent(out Item item))
+                    {
+                        if (item.itemName == day3Tasks[i]) return i;
+                    }
+                    
+                    //if (collision.CompareTag(day3Tasks[i])) return i;
                 }
                 return -1;
             case 5:
                 for (int i = 0; i < day5Tasks.Length; i++)
                 {
-                    if (collision.CompareTag(day5Tasks[i])) return i;
+                    if (collision.TryGetComponent(out Item item))
+                    {
+                        if (item.itemName == day5Tasks[i]) return i;
+                    }
+                    
+                    //if (collision.CompareTag(day5Tasks[i])) return i;
                 }
                 return -1;
             default:
