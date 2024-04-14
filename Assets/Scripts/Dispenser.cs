@@ -25,6 +25,9 @@ public class Dispenser : MonoBehaviour
             case 6:
                 Instantiate(recycledMetal, spawnPlace.position, Quaternion.identity);
                 break;
+            case 7:
+                Instantiate(recycledMetal, spawnPlace.position, Quaternion.identity);
+                break;
         }
     }
 
@@ -37,15 +40,15 @@ public class Dispenser : MonoBehaviour
             case 1:
                 print("spawned");
                 spawnedObject = Instantiate(plastic, spawnPlace.position, Quaternion.identity);
-                spawnedObject.transform.localScale = new Vector3(1, 1, 1);
+                //spawnedObject.transform.localScale = new Vector3(1, 1, 1);
                 break;
             case 3:
                 spawnedObject = Instantiate(diamondOre, spawnPlace.position, Quaternion.identity);
-                spawnedObject.transform.localScale = new Vector3(1, 1, 1);
+                //spawnedObject.transform.localScale = new Vector3(1, 1, 1);
                 break;
             case 5:
                 spawnedObject = Instantiate(metalOre, spawnPlace.position, Quaternion.identity);
-                spawnedObject.transform.localScale = new Vector3(1, 1, 1);
+                //spawnedObject.transform.localScale = new Vector3(1, 1, 1);
                 break;
         }
     }

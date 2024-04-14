@@ -33,7 +33,7 @@ public class DayCounter : MonoBehaviour
     
     public void GoToNextDay()
     {
-        CheckSleep();
+        //CheckSleep();
         if(canSleep)
         {
             PlayerPrefs.SetFloat("PlayerPosX", player.position.x);
@@ -134,6 +134,8 @@ public class DayCounter : MonoBehaviour
             default:
                 break;
         }
+
+        CheckSleep();
     }
 
     private void CheckSleep()
@@ -148,37 +150,37 @@ public class DayCounter : MonoBehaviour
                 }
                 break;
             case 2:
-                foreach (string trigger in day1Triggers)
+                foreach (string trigger in day2Triggers)
                 {
                     if (trigger != null) flag = true;
                 }
                 break;
             case 3:
-                foreach (string trigger in day1Triggers)
+                foreach (string trigger in day3Triggers)
                 {
                     if (trigger != null) flag = true;
                 }
                 break;
             case 4:
-                foreach (string trigger in day1Triggers)
+                foreach (string trigger in day4Triggers)
                 {
                     if (trigger != null) flag = true;
                 }
                 break;
             case 5:
-                foreach (string trigger in day1Triggers)
+                foreach (string trigger in day5Triggers)
                 {
                     if (trigger != null) flag = true;
                 }
                 break;
             case 6:
-                foreach (string trigger in day1Triggers)
+                foreach (string trigger in day6Triggers)
                 {
                     if (trigger != null) flag = true;
                 }
                 break;
             case 7:
-                foreach (string trigger in day1Triggers)
+                foreach (string trigger in day7Triggers)
                 {
                     if (trigger != null) flag = true;
                 }

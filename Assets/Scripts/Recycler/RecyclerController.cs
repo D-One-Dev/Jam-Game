@@ -22,20 +22,20 @@ public class RecyclerController : MonoBehaviour
 
         currentDay = DayCounter.Instance.currentDay;
 
-        switch (currentDay)
-        {
-            case 2:
-                Instantiate(day2Object, transform.position, Quaternion.identity);
-                break;
-            case 4:
-                Instantiate(day4Object, transform.position, Quaternion.identity);
-                break;
-            case 6:
-                Instantiate(day6Object, transform.position, Quaternion.identity);
-                break;
-            default:
-                break;
-        }
+        //switch (currentDay)
+        //{
+        //    case 2:
+        //        Instantiate(day2Object, transform.position, Quaternion.identity);
+        //        break;
+        //    case 4:
+        //        Instantiate(day4Object, transform.position, Quaternion.identity);
+        //        break;
+        //    case 6:
+        //        Instantiate(day6Object, transform.position, Quaternion.identity);
+        //        break;
+        //    default:
+        //        break;
+        //}
     }
 
     private void OnTriggerEnter(Collider collision)
