@@ -6,7 +6,7 @@ public class RocketRoomDoor : MonoBehaviour
 
     private void Start()
     {
-        if (DayCounter.Instance.currentDay > 1) doorCollider.locked = false;
+        if (DayCounter.Instance.currentDay > 2) doorCollider.locked = false;
         else doorCollider.locked = true;
     }
 
