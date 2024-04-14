@@ -24,7 +24,7 @@ namespace Sylphiette
             {
                 text.text += sym;
 
-                yield return new WaitForSeconds(0.065f);
+                yield return new WaitForSeconds(0.04f);
             }
 
             isTextShown = true;
