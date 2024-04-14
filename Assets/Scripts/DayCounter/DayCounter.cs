@@ -20,6 +20,7 @@ public class DayCounter : MonoBehaviour
     public int currentDay = 1;
 
     public bool canSleep;
+    private bool isSleeping;
 
     private void Awake()
     {
@@ -33,21 +34,25 @@ public class DayCounter : MonoBehaviour
     
     public void GoToNextDay()
     {
-        //CheckSleep();
-        if(canSleep)
+        if (!isSleeping)
         {
-            PlayerPrefs.SetFloat("PlayerPosX", player.position.x);
-            PlayerPrefs.SetFloat("PlayerPosY", player.position.y);
-            PlayerPrefs.SetFloat("PlayerPosZ", player.position.z);
+            //CheckSleep();
+            if(canSleep)
+            {
+                PlayerPrefs.SetFloat("PlayerPosX", player.position.x);
+                PlayerPrefs.SetFloat("PlayerPosY", player.position.y);
+                PlayerPrefs.SetFloat("PlayerPosZ", player.position.z);
 
-            PlayerPrefs.SetFloat("PlayerRotY", player.localEulerAngles.y);
-            PlayerPrefs.SetFloat("PlayerRotX", cam.localEulerAngles.x);
+                PlayerPrefs.SetFloat("PlayerRotY", player.localEulerAngles.y);
+                PlayerPrefs.SetFloat("PlayerRotX", cam.localEulerAngles.x);
 
-            currentDay++;
-            PlayerPrefs.SetInt("Day", currentDay);
+                currentDay++;
+                PlayerPrefs.SetInt("Day", currentDay);
 
-            PlayerPrefs.Save();
-            _sceneLoader.StartSceneLoading("Gameplay");
+                PlayerPrefs.Save();
+                _sceneLoader.StartSceneLoading("Gameplay");
+                isSleeping = true;
+            }
         }
     }
 

@@ -77,7 +77,7 @@ namespace Sylphiette
 
                 while (!textViewer.isTextShown) yield return new WaitForSeconds(1f);
 
-                yield return new WaitForSeconds(0.8f);
+                yield return new WaitForSeconds(1.2f);
                 textViewer.ClearText();
                 yield return new WaitForSeconds(0.2f);
             }
