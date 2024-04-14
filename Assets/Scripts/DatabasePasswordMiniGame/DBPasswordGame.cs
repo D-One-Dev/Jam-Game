@@ -90,7 +90,7 @@ namespace DatabasePasswordMiniGame
                     if (tryCount == 0)
                     {
                         //SoundController.instance.PlaySoundRandomPitch(gameLoose);
-                        DeathController.instance.TriggerDeath("BRUH");
+                        DeathController.instance.TriggerDeath("Из-за неудачного взлома вы навсегда потеряли доступ к базе данных НИК, потеряв любую надежду покинуть комплекс. Вы умерли от истощения");
                         Debug.Log("Loose");
                     }
                 }

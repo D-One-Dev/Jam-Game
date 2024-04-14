@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game End.unity
     guid: 0b60795d1a65da04691432bfa0ad4a47
   - enabled: 0
-    path: Assets/Scenes/GameplayOLD.unity
+    path: Assets/Scenes/OLD/GameplayOLD.unity
     guid: 6a12d6f10c639bf47a3018a37b93326e
   - enabled: 0
     path: Assets/Scenes/OLD/GameplayOLDFuckyou.unity
