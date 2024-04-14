@@ -259,6 +259,7 @@ public class RoverGame : MonoBehaviour, IInteractable
             gameWon = true;
             _animator.SetTrigger("Win");
             DayCounter.Instance.SetTrigger("Rover");
+            Dispenser.Instance.SpawnOre();
             return true;
         }
         return false;
