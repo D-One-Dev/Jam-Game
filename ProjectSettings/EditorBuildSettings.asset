@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 88e24fb8c52f22940a971dfae2dccda3
   - enabled: 1
-    path: Assets/Scenes/GameplayOLD.unity
-    guid: 7db221e4be9839147b469719c001706b
+    path: Assets/Scenes/Gameplay.unity
+    guid: 6a12d6f10c639bf47a3018a37b93326e
   - enabled: 1
     path: Assets/Scenes/Game End.unity
     guid: 0b60795d1a65da04691432bfa0ad4a47
   - enabled: 0
-    path: Assets/Scenes/GameplayOLD2.unity
+    path: Assets/Scenes/GameplayOLD.unity
     guid: 7b6ba45a831a9bc4f890157dbc653cc8
   - enabled: 0
     path: Assets/OLD/TestScene.unity
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/OLD/GameplayOLDewfewfew.unity
     guid: d32f6a9aa30c2ba449bb3e31892fb167
+  - enabled: 0
+    path: Assets/Scenes/GameplayOLD.unity
+    guid: 7b6ba45a831a9bc4f890157dbc653cc8
   m_configObjects: {}
