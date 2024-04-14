@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Sylphiette;
 using TMPro;
 using UnityEngine;
 
@@ -192,6 +193,8 @@ namespace _3D_Printer
                 default:
                     break;
             }
+            
+            SylphietteDialogueSystem.Instance.StartNextDialogue();
             //GameObject spawnedObject = Instantiate(outputItem, spawnPlace.position, Quaternion.identity);
 
             //spawnedObject.transform.localScale = new Vector3(1, 1, 1);

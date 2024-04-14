@@ -1,3 +1,4 @@
+using Sylphiette;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -257,6 +258,12 @@ public class PipeController : MonoBehaviour, IInteractable
             SoundController.instance.PlaySoundRandomPitch(gameWin);
             _animator.SetTrigger("Win");
             DayCounter.Instance.SetTrigger("Pipes");
+            
+            /*if (DayCounter.Instance.currentDay == 2)
+            {
+                SylphietteDialogueSystem.Instance.StartNextDialogue();
+            }*/
+            SylphietteDialogueSystem.Instance.StartNextDialogue();
         }
     }
 

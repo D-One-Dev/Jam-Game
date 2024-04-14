@@ -14,11 +14,17 @@ namespace Sylphiette
 
         public bool isTextShown;
 
-        public void Show(string str) => StartCoroutine(View(str));
+        public void Show(string str)
+        {
+            StopAllCoroutines();
+            StartCoroutine(View(str));
+        }
 
         private IEnumerator View(string str)
         {
             isTextShown = false;
+
+            text.text = "";
             
             foreach (var sym in str)
             {

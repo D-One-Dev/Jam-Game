@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Sylphiette;
+using UnityEngine;
 
 public class RocketRoomDoor : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class RocketRoomDoor : MonoBehaviour
             if (item.itemName == "Шестеренка")
             {
                 doorCollider.locked = false;
+                SylphietteDialogueSystem.Instance.StartNextDialogue();
                 Destroy(other.gameObject);
             }
         }

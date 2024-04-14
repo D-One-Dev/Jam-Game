@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Sylphiette;
+using TMPro;
 using UnityEngine;
 
 namespace DatabasePasswordMiniGame
@@ -115,6 +116,11 @@ namespace DatabasePasswordMiniGame
                     }
                     
                     spawnedObject.GetComponent<Rigidbody>().AddForce(spawnedObject.transform.forward * 1000);
+
+                    if (DayCounter.Instance.currentDay == 2)
+                    {
+                        SylphietteDialogueSystem.Instance.StartNextDialogue();
+                    }
                 }
             }
         }

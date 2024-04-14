@@ -18,8 +18,6 @@ namespace Sylphiette
         public static SylphietteDialogueSystem Instance;
         
         private int _currentDialogue;
-
-        private bool _isActive;
         
         private void Awake() => Instance = this;
 
@@ -38,12 +36,13 @@ namespace Sylphiette
         {
             _currentDialogue++;
             
-            _isActive = true;
             ChooseDialogue();
         }
 
         private void ChooseDialogue()
         {
+            StopAllCoroutines();
+            
             switch (DayCounter.Instance.currentDay)
             {
                 case 1: 
@@ -72,11 +71,6 @@ namespace Sylphiette
 
         private IEnumerator ShowDialogue(SylphietteDialogueBlock[] dialogueBlocks)
         {
-            if (_isActive)
-            {
-                yield return new WaitForSeconds(3);
-            }
-            
             for (int i = 0; i < dialogueBlocks[_currentDialogue].messages.Length; i++)
             {
                 textViewer.Show(dialogueBlocks[_currentDialogue].messages[i]);
@@ -87,8 +81,6 @@ namespace Sylphiette
                 textViewer.ClearText();
                 yield return new WaitForSeconds(0.2f);
             }
-
-            _isActive = false;
         }
     }
 }
