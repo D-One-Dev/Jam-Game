@@ -1,3 +1,5 @@
+using System.Collections;
+using Sylphiette;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -259,8 +261,21 @@ public class RoverGame : MonoBehaviour, IInteractable
             _animator.SetTrigger("Win");
             DayCounter.Instance.SetTrigger("Rover");
             Dispenser.Instance.SpawnOre();
+            SylphietteDialogueSystem.Instance.StartNextDialogue();
+
+            if (DayCounter.Instance.currentDay == 1)
+            {
+                StartCoroutine(ShowNextMessage());
+            }
+            
             return true;
         }
         return false;
+    }
+
+    private IEnumerator ShowNextMessage()
+    {
+        yield return new WaitForSeconds(9);
+        SylphietteDialogueSystem.Instance.StartNextDialogue();
     }
 }

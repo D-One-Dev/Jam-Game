@@ -1,3 +1,4 @@
+using Sylphiette;
 using UnityEngine;
 
 public class RecyclerController : MonoBehaviour
@@ -59,6 +60,8 @@ public class RecyclerController : MonoBehaviour
             }
 
             PickupController.instance.DropObjectConstant();
+            
+            SylphietteDialogueSystem.Instance.StartNextDialogue();
 
             CheckTask();
         }
