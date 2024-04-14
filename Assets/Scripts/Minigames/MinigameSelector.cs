@@ -12,13 +12,14 @@ public class MinigameSelector : MonoBehaviour
         if (maps[day - 1] != null)
         {
             maps[day - 1].SetActive(true);
-            currentScript = maps[day - 1].GetComponentInChildren<IInteractable>();
-            currentScript.TurnOn();
+            currentScript = maps[day - 1].GetComponent<IInteractable>();
+            if (currentScript == null) Debug.LogError("Cannot find IInteractable script on object " + gameObject);
+            else currentScript.TurnOn();
         }
     }
 
     public void TurnOff()
     {
-        currentScript.TurnOff();
+        if(currentScript != null) currentScript.TurnOff();
     }
 }
