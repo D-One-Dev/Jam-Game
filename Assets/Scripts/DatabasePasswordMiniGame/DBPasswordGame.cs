@@ -10,6 +10,9 @@ namespace DatabasePasswordMiniGame
         
         [SerializeField] private TMP_Text matchText;
         [SerializeField] private TMP_Text placeMatchText;
+
+        [SerializeField] private Transform spawnPlace;
+        [SerializeField] private GameObject outputItem;
         
         private bool isActive, isEnteringPassword;
         private bool isFirstSymbol = true;
@@ -95,6 +98,23 @@ namespace DatabasePasswordMiniGame
                 {
                     print("thats right");
                     DayCounter.Instance.SetTrigger("BD");
+                    
+                    var spawnedObject = Instantiate(outputItem, spawnPlace.position, Quaternion.identity);
+
+                    switch (DayCounter.Instance.currentDay)
+                    {
+                        case 1:
+                            spawnedObject.GetComponent<Item>().name = "Схема шестерни двери";
+                            break;
+                        case 4:
+                            spawnedObject.GetComponent<Item>().name = "Схема бура для лунохода";
+                            break;
+                        case 7:
+                            spawnedObject.GetComponent<Item>().name = "Схема панели для ракеты";
+                            break;
+                    }
+                    
+                    spawnedObject.GetComponent<Rigidbody>().AddForce(spawnedObject.transform.forward * 1000);
                 }
             }
         }
