@@ -99,12 +99,15 @@ public class PickupController : MonoBehaviour
 
     public void DropObjectConstant()
     {
-        heldObjRB.useGravity = true;
-        heldObjRB.drag = 1;
-        //heldObjRB.constraints = RigidbodyConstraints.None;
+        if (heldObj != null)
+        {
+            heldObjRB.useGravity = true;
+            heldObjRB.drag = 1;
+            //heldObjRB.constraints = RigidbodyConstraints.None;
 
-        heldObj.layer = 25;
-        heldObjRB.transform.parent = null;
-        heldObj = null;
+            heldObj.layer = 25;
+            heldObjRB.transform.parent = null;
+            heldObj = null;
+        }
     }
 }
