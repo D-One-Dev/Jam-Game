@@ -168,7 +168,7 @@ namespace _3D_Printer
                 case 2:
                     spawnedObject = Instantiate(day2OutputItem, spawnPlace.position, Quaternion.identity);
 
-                    spawnedObject.transform.localScale = new Vector3(1, 1, 1);
+                    spawnedObject.transform.localScale = new Vector3(35, 35, 35);
 
                     showItemsList.text = "Предмет успешно получен";
                     DayCounter.Instance.SetTrigger("3D");
