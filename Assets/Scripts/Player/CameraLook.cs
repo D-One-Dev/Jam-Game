@@ -6,8 +6,12 @@ public class CameraLook : MonoBehaviour
     [SerializeField] private Transform playerBody;
     private float xRotation = 0f;
     private Controls _controls;
+
+    public static CameraLook instance;
+
     private void Awake()
     {
+        instance = this;
         _controls = new Controls();
     }
     private void OnEnable()
@@ -42,5 +46,11 @@ public class CameraLook : MonoBehaviour
             transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
             playerBody.Rotate(Vector3.up * mouseX);
         }
+    }
+
+    public void ChangeSens(int value)
+    {
+        float sens = (float)value / 50 * .15f;
+        mouseSens = sens;
     }
 }

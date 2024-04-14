@@ -8,14 +8,17 @@ public class SettingsController : MonoBehaviour
     [SerializeField] private TMP_Text resolutionText;
     [SerializeField] private TMP_Text fullscreenText;
     [SerializeField] private TMP_Text volumeText;
+    [SerializeField] private TMP_Text sensText;
     [SerializeField] private Toggle fullscreenToggle;
     [SerializeField] private Slider volumeSlider;
+    [SerializeField] private Slider sensSlider;
     [SerializeField] private TMP_Text qualityText;
     [SerializeField] private AudioMixerGroup _audioMixer;
     private int resolution;
     private int quality;
     private bool fullscreen;
     private int volume;
+    private int sens;
     void Start()
     {
         resolution = PlayerPrefs.GetInt("Resolution", 1);
@@ -29,6 +32,8 @@ public class SettingsController : MonoBehaviour
                 fullscreen = true;
                 break;
         }
+        sens = PlayerPrefs.GetInt("Sens", 50);
+        if (CameraLook.instance != null) CameraLook.instance.ChangeSens(sens);
         volume = PlayerPrefs.GetInt("Volume", 100);
         _audioMixer.audioMixer.SetFloat("Volume", Mathf.Lerp(-80f, 0f, volume / 100f));
         Application.targetFrameRate = -1;
@@ -78,6 +83,10 @@ public class SettingsController : MonoBehaviour
         volumeSlider.value = volume;
         volumeText.text = "Громоксть: " + volume;
         PlayerPrefs.SetInt("Volume", volume);
+
+        sensSlider.value = sens;
+        sensText.text = "Чувствительность мыши: " + sens;
+        PlayerPrefs.SetInt("Sens", sens);
     }
 
     public void ChangeResolution(bool direction)
@@ -106,6 +115,14 @@ public class SettingsController : MonoBehaviour
     {
         volume = (int)volumeSlider.value;
         _audioMixer.audioMixer.SetFloat("Volume", Mathf.Lerp(-80f, 0f, volume/100f));
+        ApplySettings();
+    }
+
+    public void ChangeMouseSens()
+    {
+        sens = (int)sensSlider.value;
+
+        if(CameraLook.instance != null) CameraLook.instance.ChangeSens(sens);
         ApplySettings();
     }
 
